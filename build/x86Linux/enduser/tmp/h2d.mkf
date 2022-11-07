@@ -1,0 +1,131 @@
+M	= enduser/tmp/h2d.mkf
+XDSDIR	= enduser/xds
+INCL	= $(XDSDIR)/include/C
+XDSLIB	= enduser/xds/lib/C/libxds.a
+
+TSLIBS	= enduser/xds/lib/C/libts.a
+
+TARGET	= enduser/xds/bin/h2d
+
+CDEFS	= -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp
+CFLAGS	= -m32 -O2 -c -g -fno-strength-reduce -I$(INCL) -funsigned-char -fpack-struct=4
+CC	= gcc
+LFLAGS	= -m32 -static
+X11FLAGS	= -I$(INCL)/x11_include -I/usr/X11R6/include
+X11LIBS	= -L/usr/X11R6/lib -lXext -lX11
+XMFLAGS	= -I$(INCL)/xm_include $(X11FLAGS)
+XMLIBS	= -L/usr/X11R6/lib -lXm -lXt -lXext -lX11
+
+
+XFLAGS	=
+XLIBS	=
+
+
+# ------------------ objects enumeration ------------------
+#                    -------------------
+
+OBJ= \
+	enduser/tmp/H2DCfg.o \
+	enduser/tmp/H2DFile.o \
+	enduser/tmp/H2DGen.o \
+	enduser/tmp/H2DMsg.o \
+	enduser/tmp/H2DObjs.o \
+	enduser/tmp/H2DParse.o \
+	enduser/tmp/H2DScan.o \
+	enduser/tmp/LongStrs.o \
+	enduser/tmp/adt.o \
+	enduser/tmp/h2d.o
+# ------------------- target make rules -------------------
+#                     -----------------
+
+$(TARGET) : $(OBJ) $(TSLIBS) $(XDSLIB)
+	$(CC) $(LFLAGS) -o $(TARGET) $(OBJ) $(TSLIBS) $(XDSLIB) $(XLIBS) -lm -lncurses
+
+# ----------------- Dependency information ----------------
+#                   ----------------------
+
+enduser/tmp/H2DCfg.o     : enduser/tmp/H2DCfg.h
+enduser/tmp/H2DCfg.o     : enduser/tmp/H2DFile.h
+enduser/tmp/H2DCfg.o     : enduser/tmp/H2DMsg.h
+enduser/tmp/H2DCfg.o     : enduser/tmp/H2DObjs.h
+enduser/tmp/H2DCfg.o     : enduser/tmp/LongStrs.h
+enduser/tmp/H2DCfg.o     : enduser/tmp/adt.h
+enduser/tmp/H2DCfg.o     : $(M) enduser/tmp/H2DCfg.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/H2DCfg.o enduser/tmp/H2DCfg.c
+
+enduser/tmp/H2DFile.o    : enduser/tmp/H2DFile.h
+enduser/tmp/H2DFile.o    : enduser/tmp/LongStrs.h
+enduser/tmp/H2DFile.o    : enduser/tmp/adt.h
+enduser/tmp/H2DFile.o    : $(M) enduser/tmp/H2DFile.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/H2DFile.o enduser/tmp/H2DFile.c
+
+enduser/tmp/H2DGen.o     : enduser/tmp/H2DCfg.h
+enduser/tmp/H2DGen.o     : enduser/tmp/H2DFile.h
+enduser/tmp/H2DGen.o     : enduser/tmp/H2DGen.h
+enduser/tmp/H2DGen.o     : enduser/tmp/H2DMsg.h
+enduser/tmp/H2DGen.o     : enduser/tmp/H2DObjs.h
+enduser/tmp/H2DGen.o     : enduser/tmp/LongStrs.h
+enduser/tmp/H2DGen.o     : enduser/tmp/adt.h
+enduser/tmp/H2DGen.o     : $(M) enduser/tmp/H2DGen.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/H2DGen.o enduser/tmp/H2DGen.c
+
+enduser/tmp/H2DMsg.o     : enduser/tmp/H2DFile.h
+enduser/tmp/H2DMsg.o     : enduser/tmp/H2DMsg.h
+enduser/tmp/H2DMsg.o     : enduser/tmp/LongStrs.h
+enduser/tmp/H2DMsg.o     : enduser/tmp/adt.h
+enduser/tmp/H2DMsg.o     : $(M) enduser/tmp/H2DMsg.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/H2DMsg.o enduser/tmp/H2DMsg.c
+
+enduser/tmp/H2DObjs.o    : enduser/tmp/H2DFile.h
+enduser/tmp/H2DObjs.o    : enduser/tmp/H2DMsg.h
+enduser/tmp/H2DObjs.o    : enduser/tmp/H2DObjs.h
+enduser/tmp/H2DObjs.o    : enduser/tmp/LongStrs.h
+enduser/tmp/H2DObjs.o    : enduser/tmp/adt.h
+enduser/tmp/H2DObjs.o    : $(M) enduser/tmp/H2DObjs.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/H2DObjs.o enduser/tmp/H2DObjs.c
+
+enduser/tmp/H2DParse.o   : enduser/tmp/H2DCfg.h
+enduser/tmp/H2DParse.o   : enduser/tmp/H2DFile.h
+enduser/tmp/H2DParse.o   : enduser/tmp/H2DMsg.h
+enduser/tmp/H2DParse.o   : enduser/tmp/H2DObjs.h
+enduser/tmp/H2DParse.o   : enduser/tmp/H2DParse.h
+enduser/tmp/H2DParse.o   : enduser/tmp/H2DScan.h
+enduser/tmp/H2DParse.o   : enduser/tmp/LongStrs.h
+enduser/tmp/H2DParse.o   : enduser/tmp/adt.h
+enduser/tmp/H2DParse.o   : $(M) enduser/tmp/H2DParse.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/H2DParse.o enduser/tmp/H2DParse.c
+
+enduser/tmp/H2DScan.o    : enduser/tmp/H2DCfg.h
+enduser/tmp/H2DScan.o    : enduser/tmp/H2DFile.h
+enduser/tmp/H2DScan.o    : enduser/tmp/H2DMsg.h
+enduser/tmp/H2DScan.o    : enduser/tmp/H2DObjs.h
+enduser/tmp/H2DScan.o    : enduser/tmp/H2DScan.h
+enduser/tmp/H2DScan.o    : enduser/tmp/LongStrs.h
+enduser/tmp/H2DScan.o    : enduser/tmp/adt.h
+enduser/tmp/H2DScan.o    : $(M) enduser/tmp/H2DScan.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/H2DScan.o enduser/tmp/H2DScan.c
+
+enduser/tmp/LongStrs.o   : enduser/tmp/LongStrs.h
+enduser/tmp/LongStrs.o   : $(M) enduser/tmp/LongStrs.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/LongStrs.o enduser/tmp/LongStrs.c
+
+enduser/tmp/adt.o        : enduser/tmp/LongStrs.h
+enduser/tmp/adt.o        : enduser/tmp/adt.h
+enduser/tmp/adt.o        : $(M) enduser/tmp/adt.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/adt.o enduser/tmp/adt.c
+
+enduser/tmp/h2d.o        : enduser/tmp/H2DCfg.h
+enduser/tmp/h2d.o        : enduser/tmp/H2DFile.h
+enduser/tmp/h2d.o        : enduser/tmp/H2DGen.h
+enduser/tmp/h2d.o        : enduser/tmp/H2DMsg.h
+enduser/tmp/h2d.o        : enduser/tmp/H2DObjs.h
+enduser/tmp/h2d.o        : enduser/tmp/H2DParse.h
+enduser/tmp/h2d.o        : enduser/tmp/LongStrs.h
+enduser/tmp/h2d.o        : enduser/tmp/adt.h
+enduser/tmp/h2d.o        : enduser/tmp/h2d.h
+enduser/tmp/h2d.o        : $(M) enduser/tmp/h2d.c
+	$(CC) $(CDEFS) $(CFLAGS) $(XFLAGS) -o enduser/tmp/h2d.o enduser/tmp/h2d.c
+
+
+# end of makefile
+
