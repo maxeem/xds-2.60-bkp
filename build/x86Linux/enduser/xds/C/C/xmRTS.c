@@ -1,5 +1,5 @@
 /* XDS v2.60: Copyright (c) 1999-2011 Excelsior, LLC. All Rights Reserved. */
-/* "@(#)xmRTS.c Nov  7 22:55:49 2022" */
+/* "@(#)xmRTS.c Nov 19  1:11:49 2022" */
 #include "xmRTS.h"
 #define xmRTS_C_
 #include "xrsetjmp.h"

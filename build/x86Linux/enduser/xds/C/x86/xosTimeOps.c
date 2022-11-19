@@ -1,5 +1,5 @@
 /* XDS v2.60: Copyright (c) 1999-2011 Excelsior, LLC. All Rights Reserved. */
-/* "@(#)xosTimeOps.c Nov  7 22:55:32 2022" */
+/* "@(#)xosTimeOps.c Nov 19  1:11:33 2022" */
 #include "xosTimeOps.h"
 #define xosTimeOps_C_
 #include "xlibOS.h"

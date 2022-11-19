@@ -1,5 +1,5 @@
 /* XDS v2.60: Copyright (c) 1999-2011 Excelsior, LLC. All Rights Reserved. */
-/* "@(#)xosIpts.c Nov  7 22:55:49 2022" */
+/* "@(#)xosIpts.c Nov 19  1:11:49 2022" */
 #include "xosIpts.h"
 #define xosIpts_C_
 

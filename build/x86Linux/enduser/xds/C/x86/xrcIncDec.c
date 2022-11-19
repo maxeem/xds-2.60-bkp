@@ -1,5 +1,5 @@
 /* XDS v2.60: Copyright (c) 1999-2011 Excelsior, LLC. All Rights Reserved. */
-/* "@(#)xrcIncDec.c Nov  7 22:55:32 2022" */
+/* "@(#)xrcIncDec.c Nov 19  1:11:33 2022" */
 #include "xrcIncDec.h"
 #define xrcIncDec_C_
 #include "X2C.h"

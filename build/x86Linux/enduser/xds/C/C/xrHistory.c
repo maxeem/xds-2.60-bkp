@@ -1,5 +1,5 @@
 /* XDS v2.60: Copyright (c) 1999-2011 Excelsior, LLC. All Rights Reserved. */
-/* "@(#)xrHistory.c Nov  7 22:55:49 2022" */
+/* "@(#)xrHistory.c Nov 19  1:11:49 2022" */
 #include "xrHistory.h"
 #define xrHistory_C_
 #include "xmRTS.h"

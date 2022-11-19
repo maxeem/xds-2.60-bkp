@@ -1,5 +1,5 @@
 /* XDS v2.60: Copyright (c) 1999-2011 Excelsior, LLC. All Rights Reserved. */
-/* "@(#)xrStrCmp.c Nov  7 22:55:49 2022" */
+/* "@(#)xrStrCmp.c Nov 19  1:11:49 2022" */
 #include "xrStrCmp.h"
 #define xrStrCmp_C_
 #include "xmRTS.h"

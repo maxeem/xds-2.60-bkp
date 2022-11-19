@@ -1,5 +1,5 @@
 /* XDS v2.60: Copyright (c) 1999-2011 Excelsior, LLC. All Rights Reserved. */
-/* "@(#)xrcArythmetics.c Nov  7 22:55:49 2022" */
+/* "@(#)xrcArythmetics.c Nov 19  1:11:49 2022" */
 #include "xrcArythmetics.h"
 #define xrcArythmetics_C_
 #include "X2C.h"

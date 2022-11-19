@@ -1,0 +1,1846 @@
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../comp/src  ->  ./src/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../api/src/X11  ->  ./src/X11/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../api/src/POSIX  ->  ./src/POSIX/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../api/src/Linux  ->  ./src/Linux/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../lib/src  ->  ./src/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../utils/h2d/src  ->  ./src/h2d/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../utils/xlib/src  ->  ./src/xlib/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../utils/xlink/src  ->  ./src/xlink/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../misc/licenses/linux  ->  ./enduser/xds/licenses/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../misc/readme/Common  ->  ./enduser/xds/readme/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../misc/readme/x86Linux  ->  ./enduser/xds/readme/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../misc/Samples/Common  ->  ./enduser/xds/samples/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../misc/Samples/h2d  ->  ./enduser/xds/samples/h2d/
+Copy /home/maksim/work/xds-2.60/build/x86Linux/../../misc/Samples/Native  ->  ./enduser/xds/samples/
+=== Ok ===  Creation of process is successfully complete
+Run './build.sh' in "."
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xm =p src/m/lib -mode:=nodebug -native_library:+ -decor=rt -woff+
+
+Make project "src/m/lib"
+EXCEPTIONS          no errors, no warnings, lines   42, time  0.00, new symfile
+M2EXCEPTION         no errors, no warnings, lines   24, time  0.00, new symfile
+COROUTINES          no errors, no warnings, lines   87, time  0.01, new symfile
+TERMINATION         no errors, no warnings, lines   11, time  0.00, new symfile
+LowReal             no errors, no warnings, lines   71, time  0.00, new symfile
+LowLong             no errors, no warnings, lines   71, time  0.00, new symfile
+ChanConsts          no errors, no warnings, lines   52, time  0.00, new symfile
+CharClass           no errors, no warnings, lines   23, time  0.00, new symfile
+ConvTypes           no errors, no warnings, lines   25, time  0.00, new symfile
+IOConsts            no errors, no warnings, lines   16, time  0.00, new symfile
+IOChan              no errors, no warnings, lines  153, time  0.01, new symfile
+IOResult            no errors, no warnings, lines   25, time  0.00, new symfile
+ProgramArgs         no errors, no warnings, lines   25, time  0.00, new symfile
+Processes           no errors, no warnings, lines  119, time  0.00, new symfile
+Semaphores          no errors, no warnings, lines   40, time  0.00, new symfile
+XPrs                no errors, no warnings, lines   27, time  0.00, new symfile
+RealIO              no errors, no warnings, lines   47, time  0.00, new symfile
+RealMath            no errors, no warnings, lines   51, time  0.00, new symfile
+RealStr             no errors, no warnings, lines   48, time  0.01, new symfile
+XReal               no errors, no warnings, lines   40, time  0.00, new symfile
+LongMath            no errors, no warnings, lines   51, time  0.00, new symfile
+SIOResult           no errors, no warnings, lines   25, time  0.00, new symfile
+STextIO             no errors, no warnings, lines   54, time  0.00, new symfile
+Storage             no errors, no warnings, lines   37, time  0.00, new symfile
+StreamFile          no errors, no warnings, lines   42, time  0.00, new symfile
+SRealIO             no errors, no warnings, lines   45, time  0.00, new symfile
+Strings             no errors, no warnings, lines  143, time  0.00, new symfile
+SWholeIO            no errors, no warnings, lines   38, time  0.00, new symfile
+SysClock            no errors, no warnings, lines   44, time  0.01, new symfile
+TextIO              no errors, no warnings, lines   54, time  0.00, new symfile
+WholeConv           no errors, no warnings, lines   53, time  0.00, new symfile
+WholeIO             no errors, no warnings, lines   34, time  0.00, new symfile
+WholeStr            no errors, no warnings, lines   37, time  0.00, new symfile
+RndFile             no errors, no warnings, lines   96, time  0.00, new symfile
+SeqFile             no errors, no warnings, lines   83, time  0.00, new symfile
+SLongIO             no errors, no warnings, lines   45, time  0.00, new symfile
+SRawIO              no errors, no warnings, lines   19, time  0.00, new symfile
+StdChans            no errors, no warnings, lines   68, time  0.01, new symfile
+TermFile            no errors, no warnings, lines   47, time  0.00, new symfile
+IOLink              no errors, no warnings, lines  115, time  0.00, new symfile
+LongConv            no errors, no warnings, lines   48, time  0.00, new symfile
+LongIO              no errors, no warnings, lines   45, time  0.00, new symfile
+LongStr             no errors, no warnings, lines   48, time  0.00, new symfile
+RealConv            no errors, no warnings, lines   48, time  0.00, new symfile
+RawIO               no errors, no warnings, lines   17, time  0.00, new symfile
+GeneralUserExceptio no errors, no warnings, lines   23, time  0.00, new symfile
+XRaise              no errors, no warnings, lines   16, time  0.01, new symfile
+ComplexMath         no errors, no warnings, lines   61, time  0.00, new symfile
+LongComplexMath     no errors, no warnings, lines   61, time  0.00, new symfile
+xFilePos            no errors, no warnings, lines   16, time  0.00, new symfile
+XEXCEPTIONS         no errors, no warnings, lines   36, time  0.00, new symfile
+InOut               no errors, no warnings, lines   28, time  0.00, new symfile
+MathLib0            no errors, no warnings, lines   18, time  0.00, new symfile
+RealInOut           no errors, no warnings, lines   10, time  0.00, new symfile
+LongInOut           no errors, no warnings, lines    9, time  0.00, new symfile
+xMath               no errors, no warnings, lines   72, time  0.00, new symfile
+MathR               no errors, no warnings, lines  154, time  0.00, new symfile, (new def)
+In                  no errors, no warnings, lines  355, time  0.00, new symfile, (new def)
+Out                 no errors, no warnings, lines  115, time  0.00, new symfile, (new def)
+O2Strings           no errors, no warnings, lines  124, time  0.00, new symfile, (new def)
+MathL               no errors, no warnings, lines  152, time  0.01, new symfile, (new def)
+MathC               no errors, no warnings, lines  228, time  0.00, new symfile, (new def)
+MathCL              no errors, no warnings, lines  224, time  0.00, new symfile, (new def)
+oberonRTS           no errors, no warnings, lines  129, time  0.01, new symfile
+Printf              no errors, no warnings, lines   15, time  0.00, new symfile
+FormOut             no errors, no warnings, lines   33, time  0.00, new symfile
+TimeConv            no errors, no warnings, lines   98, time  0.00, new symfile
+ProgEnv             no errors, no warnings, lines   29, time  0.00, new symfile
+ProgExec            no errors, no warnings, lines   27, time  0.00, new symfile
+XDSRTL              no errors, no warnings, lines   46, time  0.00, new symfile
+LocalHeap           no errors, no warnings, lines   22, time  0.00, new symfile
+FormStr             no errors, no warnings, lines   69, time  0.00, new symfile
+FileSys             no errors, no warnings, lines   58, time  0.00, new symfile
+FileName            no errors, no warnings, lines   64, time  0.00, new symfile
+DStrings            no errors, no warnings, lines   34, time  0.00, new symfile, (new def)
+RegComp             no errors, no warnings, lines  466, time  0.01, new symfile, (new def)
+platform            no errors, no warnings, lines   78, time  0.00, new symfile
+FilePath            no errors, no warnings, lines  113, time  0.00, new symfile, (new def)
+xrsetjmp            no errors, no warnings, lines   26, time  0.00, new symfile
+xmRTS               no errors, no warnings, lines  647, time  0.01, new symfile
+xrMM                no errors, no warnings, lines  276, time  0.00, new symfile
+xrM2MM              no errors, no warnings, lines   24, time  0.00, new symfile
+xrO2MM              no errors, no warnings, lines   48, time  0.00, new symfile
+xrExponents         no errors, no warnings, lines   17, time  0.00, new symfile
+xrExceptions        no errors, no warnings, lines   44, time  0.00, new symfile
+xrAReal             no errors, no warnings, lines   22, time  0.00, new symfile
+xrStrings           no errors, no warnings, lines   21, time  0.00, new symfile
+xrLSETs             no errors, no warnings, lines   33, time  0.00, new symfile
+xrSETs              no errors, no warnings, lines   20, time  0.00, new symfile
+xrHistory           no errors, no warnings, lines   16, time  0.00, new symfile
+xrThreads           no errors, no warnings, lines   79, time  0.00, new symfile
+xrInt64             no errors, no warnings, lines   30, time  0.00, new symfile
+xlibOS              no errors, no warnings, lines  178, time  0.00, new symfile
+xrtsOS              no errors, no warnings, lines   87, time  0.00, new symfile
+xosEnv              no errors, no warnings, lines   12, time  0.00, new symfile
+xosExit             no errors, no warnings, lines   15, time  0.00, new symfile
+xosFileIO           no errors, no warnings, lines   22, time  0.00, new symfile
+xosFmtIO            no errors, no warnings, lines   14, time  0.00, new symfile
+xosFmtNL            no errors, no warnings, lines    7, time  0.00, new symfile
+xosFS               no errors, no warnings, lines   41, time  0.00, new symfile
+xosMalloc           no errors, no warnings, lines   22, time  0.00, new symfile
+xosMem              no errors, no warnings, lines   16, time  0.00, new symfile
+xosIpts             no errors, no warnings, lines   12, time  0.00, new symfile
+xosTime             no errors, no warnings, lines   18, time  0.00, new symfile
+xosFiles            no errors, no warnings, lines   59, time  0.01, new symfile
+xosExec             no errors, no warnings, lines   12, time  0.00, new symfile
+xosTTY              no errors, no warnings, lines   18, time  0.00, new symfile
+xosTimeOps          no errors, no warnings, lines   16, time  0.00, new symfile
+xosDirs             no errors, no warnings, lines   19, time  0.00, new symfile
+xrTCov              no errors, no warnings, lines  217, time  0.00, new symfile
+X2C                 no errors, no warnings, lines   50, time  0.00, new symfile
+xPOSIX              no errors, no warnings, lines  328, time  0.00, new symfile
+x2cLib              no errors, no warnings, lines   36, time  0.00, new symfile
+xrcO2MM             no errors, no warnings, lines   14, time  0.00, new symfile
+xrcRTS              no errors, no warnings, lines   16, time  0.01, new symfile
+xrcChecks           no errors, no warnings, lines   30, time  0.01, new symfile
+xrcACMPLX           no errors, no warnings, lines   27, time  0.00, new symfile
+xrcIncDec           no errors, no warnings, lines   27, time  0.00, new symfile
+xrcArythmetics      no errors, no warnings, lines   22, time  0.00, new symfile
+xmRTSnat            no errors, no warnings, lines   11, time  0.00, new symfile
+XIOChan             no errors, no warnings, lines   16, time  0.00, new symfile
+xDevData            no errors, no warnings, lines   98, time  0.00, new symfile
+POSIXIOChan         no errors, no warnings, lines   52, time  0.00, new symfile
+xrBlockManager      no errors, no warnings, lines   34, time  0.00, new symfile
+xrFName             no errors, no warnings, lines   36, time  0.00, new symfile
+xrDTree             no errors, no warnings, lines   55, time  0.00, new symfile
+xruSTABS            no errors, no warnings, lines   80, time  0.00, new symfile
+xrnStkScan          no errors, no warnings, lines    9, time  0.00, new symfile
+xtcsOS              no errors, no warnings, lines  112, time  0.00, new symfile
+xosBalls            no errors, no warnings, lines   22, time  0.00, new symfile
+xrnMman             no errors, no warnings, lines   48, time  0.00, new symfile
+EXCEPTIONS          no errors, no warnings, lines   92, time  0.01
+M2EXCEPTION         no errors, no warnings, lines   44, time  0.00
+COROUTINES          no errors, no warnings, lines   80, time  0.00
+TERMINATION         no errors, no warnings, lines  198, time  0.00
+LowReal             no errors, no warnings, lines  132, time  0.00
+LowLong             no errors, no warnings, lines  136, time  0.00
+ChanConsts          no errors, no warnings, lines    3, time  0.00
+CharClass           no errors, no warnings, lines   65, time  0.00
+ConvTypes           no errors, no warnings, lines    3, time  0.00
+IOConsts            no errors, no warnings, lines    3, time  0.00
+IOChan              no errors, no warnings, lines  106, time  0.00
+IOResult            no errors, no warnings, lines   11, time  0.00
+ProgramArgs         no errors, no warnings, lines  163, time  0.00
+Processes           no errors, no warnings, lines  585, time  0.01
+Semaphores          no errors, no warnings, lines  221, time  0.00
+XPrs                no errors, no warnings, lines    4, time  0.00
+RealIO              no errors, no warnings, lines  150, time  0.00
+RealMath            no errors, no warnings, lines  113, time  0.00
+RealStr             no errors, no warnings, lines  216, time  0.00
+XReal               no errors, no warnings, lines  338, time  0.01
+LongMath            no errors, no warnings, lines  112, time  0.00
+SIOResult           no errors, no warnings, lines   11, time  0.00
+STextIO             no errors, no warnings, lines   47, time  0.00
+Storage             no errors, no warnings, lines   58, time  0.00
+StreamFile          no errors, no warnings, lines   89, time  0.00
+SRealIO             no errors, no warnings, lines   34, time  0.00
+Strings             no errors, no warnings, lines  220, time  0.00
+SWholeIO            no errors, no warnings, lines   26, time  0.00
+SysClock            no errors, no warnings, lines   76, time  0.00
+TextIO              no errors, no warnings, lines   95, time  0.00
+WholeConv           no errors, no warnings, lines  145, time  0.00
+WholeIO             no errors, no warnings, lines  121, time  0.00
+WholeStr            no errors, no warnings, lines   99, time  0.00
+RndFile             no errors, no warnings, lines  219, time  0.00
+SeqFile             no errors, no warnings, lines  222, time  0.00
+SLongIO             no errors, no warnings, lines   34, time  0.00
+SRawIO              no errors, no warnings, lines   16, time  0.00
+StdChans            no errors, no warnings, lines  185, time  0.00
+TermFile            no errors, no warnings, lines  369, time  0.00
+IOLink              no errors, no warnings, lines  185, time  0.00
+LongConv            no errors, no warnings, lines  156, time  0.00
+LongIO              no errors, no warnings, lines  150, time  0.01
+LongStr             no errors, no warnings, lines  486, time  0.00
+RealConv            no errors, no warnings, lines  156, time  0.00
+RawIO               no errors, no warnings, lines   20, time  0.00
+GeneralUserExceptio no errors, no warnings, lines   37, time  0.00
+XRaise              no errors, no warnings, lines   22, time  0.00
+ComplexMath         no errors, no warnings, lines  167, time  0.01
+LongComplexMath     no errors, no warnings, lines  167, time  0.00
+xFilePos            no errors, no warnings, lines   41, time  0.00
+XEXCEPTIONS         no errors, no warnings, lines   64, time  0.00
+InOut               no errors, no warnings, lines  182, time  0.00
+MathLib0            no errors, no warnings, lines   41, time  0.00
+RealInOut           no errors, no warnings, lines   24, time  0.00
+LongInOut           no errors, no warnings, lines   24, time  0.00
+oberonRTS           no errors, no warnings, lines  244, time  0.00
+Printf              no errors, no warnings, lines   52, time  0.00
+FormOut             no errors, no warnings, lines  558, time  0.00
+TimeConv            no errors, no warnings, lines  283, time  0.00
+ProgEnv             no errors, no warnings, lines  103, time  0.00
+ProgExec            no errors, no warnings, lines   59, time  0.00
+XDSRTL              no errors, no warnings, lines   23, time  0.00
+LocalHeap           no errors, no warnings, lines  417, time  0.00
+FormStr             no errors, no warnings, lines  167, time  0.00
+FileSys             no errors, no warnings, lines  204, time  0.00
+FileName            no errors, no warnings, lines  139, time  0.00
+xmRTS               no errors, no warnings, lines   44, time  0.00
+xrMM                no errors, no warnings, lines 1185, time  0.00
+xrM2MM              no errors, no warnings, lines  194, time  0.00
+xrO2MM              no errors, no warnings, lines 2596, time  0.00
+xrExponents         no errors, no warnings, lines   81, time  0.00
+xrExceptions        no errors, no warnings, lines  448, time  0.00
+xrAReal             no errors, no warnings, lines   70, time  0.00
+xrStrings           no errors, no warnings, lines   60, time  0.00
+xrLSETs             no errors, no warnings, lines  152, time  0.00
+xrSETs              no errors, no warnings, lines   86, time  0.00
+xrHistory           no errors, no warnings, lines  139, time  0.00
+xrThreads           no errors, no warnings, lines  389, time  0.00
+xrInt64             no errors, no warnings, lines  158, time  0.00
+xosEnv              no errors, no warnings, lines   46, time  0.01
+xosFileIO           no errors, no warnings, lines   84, time  0.00
+xosFmtIO            no errors, no warnings, lines   88, time  0.00
+xosFmtNL            no errors, no warnings, lines   13, time  0.00
+xosMalloc           no errors, no warnings, lines   49, time  0.00
+xosMem              no errors, no warnings, lines   22, time  0.00
+xosIpts             no errors, no warnings, lines   26, time  0.00
+xosFiles            no errors, no warnings, lines  256, time  0.00
+xosExec             no errors, no warnings, lines   90, time  0.00
+xosTimeOps          no errors, no warnings, lines  223, time  0.01
+xrTCov              no errors, no warnings, lines 1150, time  0.01
+xrcO2MM             no errors, no warnings, lines   95, time  0.00
+xrcRTS              no errors, no warnings, lines   64, time  0.00
+xrcChecks           no errors, no warnings, lines   85, time  0.00
+xrcACMPLX           no errors, no warnings, lines   90, time  0.00
+xrcIncDec           no errors, no warnings, lines  154, time  0.00
+xrcArythmetics      no errors, no warnings, lines  113, time  0.00
+xmRTSnat            no errors, no warnings, lines   73, time  0.00
+XIOChan             no errors, no warnings, lines   25, time  0.00
+xDevData            no errors, no warnings, lines  944, time  0.00
+POSIXIOChan         no errors, no warnings, lines   52, time  0.00
+xrBlockManager      no errors, no warnings, lines  137, time  0.00
+xrFName             no errors, no warnings, lines  115, time  0.01
+xrDTree             no errors, no warnings, lines  146, time  0.00
+xruSTABS            no errors, no warnings, lines  113, time  0.00
+xrnStkScan          no errors, no warnings, lines   57, time  0.00
+xosBalls            no errors, no warnings, lines   75, time  0.00
+New "enduser/tmp/lib.mkf" is generated using template "src/m/xds.tem"
+-------------------------------------------------------------------
+files: 237  errors: 0(0)  lines 27526  time: 0:00  speed 8257800 l/m
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/COROUTINES.o enduser/xds/C/x86/COROUTINES.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ChanConsts.o enduser/xds/C/x86/ChanConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/CharClass.o enduser/xds/C/x86/CharClass.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ComplexMath.o enduser/xds/C/x86/ComplexMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ConvTypes.o enduser/xds/C/x86/ConvTypes.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/DStrings.o enduser/xds/C/x86/DStrings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/EXCEPTIONS.o enduser/xds/C/x86/EXCEPTIONS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FileName.o enduser/xds/C/x86/FileName.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FilePath.o enduser/xds/C/x86/FilePath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FileSys.o enduser/xds/C/x86/FileSys.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FormOut.o enduser/xds/C/x86/FormOut.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FormStr.o enduser/xds/C/x86/FormStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/GeneralUserExceptions.o enduser/xds/C/x86/GeneralUserExceptions.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IOChan.o enduser/xds/C/x86/IOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IOConsts.o enduser/xds/C/x86/IOConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IOLink.o enduser/xds/C/x86/IOLink.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IOResult.o enduser/xds/C/x86/IOResult.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/In.o enduser/xds/C/x86/In.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/InOut.o enduser/xds/C/x86/InOut.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LocalHeap.o enduser/xds/C/x86/LocalHeap.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongComplexMath.o enduser/xds/C/x86/LongComplexMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongConv.o enduser/xds/C/x86/LongConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongIO.o enduser/xds/C/x86/LongIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongInOut.o enduser/xds/C/x86/LongInOut.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongMath.o enduser/xds/C/x86/LongMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongStr.o enduser/xds/C/x86/LongStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LowLong.o enduser/xds/C/x86/LowLong.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LowReal.o enduser/xds/C/x86/LowReal.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/M2EXCEPTION.o enduser/xds/C/x86/M2EXCEPTION.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/MathC.o enduser/xds/C/x86/MathC.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/MathCL.o enduser/xds/C/x86/MathCL.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/MathL.o enduser/xds/C/x86/MathL.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/MathLib0.o enduser/xds/C/x86/MathLib0.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/MathR.o enduser/xds/C/x86/MathR.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/O2Strings.o enduser/xds/C/x86/O2Strings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Out.o enduser/xds/C/x86/Out.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/POSIXIOChan.o enduser/xds/C/x86/POSIXIOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Printf.o enduser/xds/C/x86/Printf.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Processes.o enduser/xds/C/x86/Processes.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ProgEnv.o enduser/xds/C/x86/ProgEnv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ProgExec.o enduser/xds/C/x86/ProgExec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ProgramArgs.o enduser/xds/C/x86/ProgramArgs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RawIO.o enduser/xds/C/x86/RawIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RealConv.o enduser/xds/C/x86/RealConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RealIO.o enduser/xds/C/x86/RealIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RealInOut.o enduser/xds/C/x86/RealInOut.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RealMath.o enduser/xds/C/x86/RealMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RealStr.o enduser/xds/C/x86/RealStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RegComp.o enduser/xds/C/x86/RegComp.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RndFile.o enduser/xds/C/x86/RndFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SIOResult.o enduser/xds/C/x86/SIOResult.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SLongIO.o enduser/xds/C/x86/SLongIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SRawIO.o enduser/xds/C/x86/SRawIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SRealIO.o enduser/xds/C/x86/SRealIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/STextIO.o enduser/xds/C/x86/STextIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SWholeIO.o enduser/xds/C/x86/SWholeIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Semaphores.o enduser/xds/C/x86/Semaphores.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SeqFile.o enduser/xds/C/x86/SeqFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/StdChans.o enduser/xds/C/x86/StdChans.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Storage.o enduser/xds/C/x86/Storage.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/StreamFile.o enduser/xds/C/x86/StreamFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Strings.o enduser/xds/C/x86/Strings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SysClock.o enduser/xds/C/x86/SysClock.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/TERMINATION.o enduser/xds/C/x86/TERMINATION.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/TermFile.o enduser/xds/C/x86/TermFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/TextIO.o enduser/xds/C/x86/TextIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/TimeConv.o enduser/xds/C/x86/TimeConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/WholeConv.o enduser/xds/C/x86/WholeConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/WholeIO.o enduser/xds/C/x86/WholeIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/WholeStr.o enduser/xds/C/x86/WholeStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/X2C.o enduser/xds/C/x86/X2C.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/XDSRTL.o enduser/xds/C/x86/XDSRTL.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/XEXCEPTIONS.o enduser/xds/C/x86/XEXCEPTIONS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/XIOChan.o enduser/xds/C/x86/XIOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/XPrs.o enduser/xds/C/x86/XPrs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/XRaise.o enduser/xds/C/x86/XRaise.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/XReal.o enduser/xds/C/x86/XReal.c
+as --32 -o enduser/tmp/native.o src/xr/C-Native/x86Linux/native.s
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/native_e.o enduser/xds/C/x86/native_e.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/native_h.o enduser/xds/C/x86/native_h.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/native_i.o enduser/xds/C/x86/native_i.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/native_l.o enduser/xds/C/x86/native_l.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/native_m.o enduser/xds/C/x86/native_m.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/native_x.o enduser/xds/C/x86/native_x.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/oberonRTS.o enduser/xds/C/x86/oberonRTS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/platform.o enduser/xds/C/x86/platform.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/x2cLib.o enduser/xds/C/x86/x2cLib.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xDevData.o enduser/xds/C/x86/xDevData.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xFilePos.o enduser/xds/C/x86/xFilePos.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xMathAds.o enduser/xds/C/x86/xMathAds.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xmRTS.o enduser/xds/C/x86/xmRTS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xmRTSnat.o enduser/xds/C/x86/xmRTSnat.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosBalls.o enduser/xds/C/x86/xosBalls.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosDirs.o enduser/xds/C/x86/xosDirs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosEnv.o enduser/xds/C/x86/xosEnv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosExec.o enduser/xds/C/x86/xosExec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosExit.o enduser/xds/C/x86/xosExit.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosFS.o enduser/xds/C/x86/xosFS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosFileIO.o enduser/xds/C/x86/xosFileIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosFiles.o enduser/xds/C/x86/xosFiles.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosFmtIO.o enduser/xds/C/x86/xosFmtIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosFmtNL.o enduser/xds/C/x86/xosFmtNL.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosIpts.o enduser/xds/C/x86/xosIpts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosMalloc.o enduser/xds/C/x86/xosMalloc.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosMem.o enduser/xds/C/x86/xosMem.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosTTY.o enduser/xds/C/x86/xosTTY.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosTime.o enduser/xds/C/x86/xosTime.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xosTimeOps.o enduser/xds/C/x86/xosTimeOps.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrAReal.o enduser/xds/C/x86/xrAReal.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrBlockManager.o enduser/xds/C/x86/xrBlockManager.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrDTree.o enduser/xds/C/x86/xrDTree.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrExceptions.o enduser/xds/C/x86/xrExceptions.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrExponents.o enduser/xds/C/x86/xrExponents.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrFName.o enduser/xds/C/x86/xrFName.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrHistory.o enduser/xds/C/x86/xrHistory.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrInt64.o enduser/xds/C/x86/xrInt64.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrLSETs.o enduser/xds/C/x86/xrLSETs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrM2MM.o enduser/xds/C/x86/xrM2MM.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrMM.o enduser/xds/C/x86/xrMM.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrO2MM.o enduser/xds/C/x86/xrO2MM.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrSETs.o enduser/xds/C/x86/xrSETs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrStrings.o enduser/xds/C/x86/xrStrings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrTCov.o enduser/xds/C/x86/xrTCov.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrThreads.o enduser/xds/C/x86/xrThreads.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrcACMPLX.o enduser/xds/C/x86/xrcACMPLX.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrcArythmetics.o enduser/xds/C/x86/xrcArythmetics.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrcChecks.o enduser/xds/C/x86/xrcChecks.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrcCrtnStart.o enduser/xds/C/x86/xrcCrtnStart.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrcIncDec.o enduser/xds/C/x86/xrcIncDec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrcO2MM.o enduser/xds/C/x86/xrcO2MM.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrcRTS.o enduser/xds/C/x86/xrcRTS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrcStart.o enduser/xds/C/x86/xrcStart.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xrnStkScan.o enduser/xds/C/x86/xrnStkScan.c
+as --32 -o enduser/tmp/xrsetjmp.o src/xr/C-Native/x86Linux/xrsetjmp.s
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xruSTABS.o enduser/xds/C/x86/xruSTABS.c
+as --32 -o enduser/tmp/xrustrcmp.o src/xr/C-Native/x86Linux/xrustrcmp.s
+as --32 -o enduser/tmp/xrustrlen.o src/xr/C-Native/x86Linux/xrustrlen.s
+rm -f enduser/xds/lib/x86/libxds.a
+ar q enduser/xds/lib/x86/libxds.a enduser/tmp/COROUTINES.o enduser/tmp/ChanConsts.o enduser/tmp/CharClass.o enduser/tmp/ComplexMath.o enduser/tmp/ConvTypes.o enduser/tmp/DStrings.o enduser/tmp/EXCEPTIONS.o enduser/tmp/FileName.o enduser/tmp/FilePath.o enduser/tmp/FileSys.o enduser/tmp/FormOut.o enduser/tmp/FormStr.o enduser/tmp/GeneralUserExceptions.o enduser/tmp/IOChan.o enduser/tmp/IOConsts.o enduser/tmp/IOLink.o enduser/tmp/IOResult.o enduser/tmp/In.o enduser/tmp/InOut.o enduser/tmp/LocalHeap.o enduser/tmp/LongComplexMath.o enduser/tmp/LongConv.o enduser/tmp/LongIO.o enduser/tmp/LongInOut.o enduser/tmp/LongMath.o enduser/tmp/LongStr.o enduser/tmp/LowLong.o enduser/tmp/LowReal.o enduser/tmp/M2EXCEPTION.o enduser/tmp/MathC.o enduser/tmp/MathCL.o enduser/tmp/MathL.o enduser/tmp/MathLib0.o enduser/tmp/MathR.o enduser/tmp/O2Strings.o enduser/tmp/Out.o enduser/tmp/POSIXIOChan.o enduser/tmp/Printf.o enduser/tmp/Processes.o enduser/tmp/ProgEnv.o enduser/tmp/ProgExec.o enduser/tmp/ProgramArgs.o enduser/tmp/RawIO.o enduser/tmp/RealConv.o enduser/tmp/RealIO.o enduser/tmp/RealInOut.o enduser/tmp/RealMath.o enduser/tmp/RealStr.o enduser/tmp/RegComp.o enduser/tmp/RndFile.o enduser/tmp/SIOResult.o enduser/tmp/SLongIO.o enduser/tmp/SRawIO.o enduser/tmp/SRealIO.o enduser/tmp/STextIO.o enduser/tmp/SWholeIO.o enduser/tmp/Semaphores.o enduser/tmp/SeqFile.o enduser/tmp/StdChans.o enduser/tmp/Storage.o enduser/tmp/StreamFile.o enduser/tmp/Strings.o enduser/tmp/SysClock.o enduser/tmp/TERMINATION.o enduser/tmp/TermFile.o enduser/tmp/TextIO.o enduser/tmp/TimeConv.o enduser/tmp/WholeConv.o enduser/tmp/WholeIO.o enduser/tmp/WholeStr.o enduser/tmp/X2C.o enduser/tmp/XDSRTL.o enduser/tmp/XEXCEPTIONS.o enduser/tmp/XIOChan.o enduser/tmp/XPrs.o enduser/tmp/XRaise.o enduser/tmp/XReal.o enduser/tmp/native.o enduser/tmp/native_e.o enduser/tmp/native_h.o enduser/tmp/native_i.o enduser/tmp/native_l.o enduser/tmp/native_m.o enduser/tmp/native_x.o enduser/tmp/oberonRTS.o enduser/tmp/platform.o enduser/tmp/x2cLib.o enduser/tmp/xDevData.o enduser/tmp/xFilePos.o enduser/tmp/xMathAds.o enduser/tmp/xmRTS.o enduser/tmp/xmRTSnat.o enduser/tmp/xosBalls.o enduser/tmp/xosDirs.o enduser/tmp/xosEnv.o enduser/tmp/xosExec.o enduser/tmp/xosExit.o enduser/tmp/xosFS.o enduser/tmp/xosFileIO.o enduser/tmp/xosFiles.o enduser/tmp/xosFmtIO.o enduser/tmp/xosFmtNL.o enduser/tmp/xosIpts.o enduser/tmp/xosMalloc.o enduser/tmp/xosMem.o enduser/tmp/xosTTY.o enduser/tmp/xosTime.o enduser/tmp/xosTimeOps.o enduser/tmp/xrAReal.o enduser/tmp/xrBlockManager.o enduser/tmp/xrDTree.o enduser/tmp/xrExceptions.o enduser/tmp/xrExponents.o enduser/tmp/xrFName.o enduser/tmp/xrHistory.o enduser/tmp/xrInt64.o enduser/tmp/xrLSETs.o enduser/tmp/xrM2MM.o enduser/tmp/xrMM.o enduser/tmp/xrO2MM.o enduser/tmp/xrSETs.o enduser/tmp/xrStrings.o enduser/tmp/xrTCov.o enduser/tmp/xrThreads.o enduser/tmp/xrcACMPLX.o enduser/tmp/xrcArythmetics.o enduser/tmp/xrcChecks.o enduser/tmp/xrcCrtnStart.o enduser/tmp/xrcIncDec.o enduser/tmp/xrcO2MM.o enduser/tmp/xrcRTS.o enduser/tmp/xrcStart.o enduser/tmp/xrnStkScan.o enduser/tmp/xrsetjmp.o enduser/tmp/xruSTABS.o enduser/tmp/xrustrcmp.o enduser/tmp/xrustrlen.o
+ranlib enduser/xds/lib/x86/libxds.a
+/home/maksim/work/xds-2.60/build/x86Linux/enduser/xds/lib/x86 /home/maksim/work/xds-2.60/build/x86Linux
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux/enduser/xds/lib/x86
+
+xm =g ../../../../src/m/lib -mode:=user -native_library:+
+
+O2/M2 development system v2.60 TS  (c) 1991-2011 Excelsior, LLC. (build 10.09.2020)
+Generate makefile for project "../../../../src/m/lib"
+New "lib.mkf" is generated using template "../../../../src/m/xds.tem"
+/home/maksim/work/xds-2.60/build/x86Linux
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/m/xc -mode:=enduser -ts_compatible:+ -decor=rt -woff+ -native_library:+ -usestaticclibs:+
+
+Make project "src/m/xc"
+xiEnv               no errors, no warnings, lines  722, time  0.02, new symfile
+xiFiles             no errors, no warnings, lines  847, time  0.02, new symfile
+xcStr               no errors, no warnings, lines  166, time  0.01, new symfile
+pcK                 no errors, no warnings, lines 2569, time  0.03, new symfile
+xmConfig            no errors, no warnings, lines  770, time  0.03, new symfile
+xmPlatform          no errors, no warnings, lines  237, time  0.01, new symfile
+PFNConv             no errors, no warnings, lines  100, time  0.00, new symfile
+xmFS                no errors, no warnings, lines  555, time  0.02, new symfile
+QFile               no errors, no warnings, lines   74, time  0.00, new symfile
+Dirs                no errors, no warnings, lines   69, time  0.00, new symfile
+xmISOFM             no errors, no warnings, lines  461, time  0.01, new symfile
+xmArgs              no errors, no warnings, lines  102, time  0.01, new symfile
+xmErrors            no errors, no warnings, lines  672, time  0.03, new symfile
+BitVect             no errors, no warnings, lines  133, time  0.00, new symfile
+ir_def              no errors, no warnings, lines   53, time  0.00, new symfile
+ir_D                no errors, no warnings, lines   13, time  0.00, new symfile
+opTune              no errors, no warnings, lines  192, time  0.00, new symfile
+Calc                no errors, no warnings, lines 1085, time  1.03, new symfile
+ir                  no errors, no warnings, lines 1871, time  0.02, new symfile
+pcS                 no errors, no warnings, lines 1553, time  0.06, new symfile
+pcO                 no errors, no warnings, lines 2820, time  0.12, new symfile
+xProfRTS            no errors, no warnings, lines   50, time  0.00, new symfile
+opAttrs             no errors, no warnings, lines 1202, time  0.03, new symfile
+CodeDef             no errors, no warnings, lines 1385, time  0.04, new symfile
+pcVisIR             no errors, no warnings, lines  865, time  0.02, new symfile
+pcB                 no errors, no warnings, lines 2270, time  0.14, new symfile
+AsmX86              no errors, no warnings, lines 4590, time  0.55, new symfile
+desc386             no errors, no warnings, lines  684, time  0.01, new symfile
+opProcs             no errors, no warnings, lines  950, time  0.03, new symfile
+ControlGraph        no errors, no warnings, lines 2315, time  0.18, new symfile
+opStd               no errors, no warnings, lines  946, time  0.04, new symfile
+Options             no errors, no warnings, lines  714, time  0.03, new symfile
+ObjNames            no errors, no warnings, lines  363, time  0.02, new symfile
+opDef               no errors, no warnings, lines 2887, time  0.09, new symfile
+opSample            no errors, no warnings, lines  187, time  0.01, new symfile
+opE                 no errors, no warnings, lines 4314, time  0.22, new symfile
+Analysis            no errors, no warnings, lines  767, time  0.05, new symfile
+opCard64            no errors, no warnings, lines   35, time  0.00, new symfile
+Optimize            no errors, no warnings, lines 6219, time  0.42, new symfile
+Color               no errors, no warnings, lines 2575, time  0.24, new symfile
+TestIO              no errors, no warnings, lines 1532, time  0.07, new symfile
+ssa                 no errors, no warnings, lines 1376, time  0.10, new symfile
+Modify              no errors, no warnings, lines 2160, time  0.09, new symfile
+PrepGen             no errors, no warnings, lines  664, time  0.03, new symfile
+opIO                no errors, no warnings, lines   72, time  0.01, new symfile
+Registry            no errors, no warnings, lines  155, time  0.00, new symfile
+CodeFace            no errors, no warnings, lines  458, time  0.03, new symfile
+Emit                no errors, no warnings, lines 2312, time  0.09, new symfile
+RDefs_D             no errors, no warnings, lines   47, time  0.02, new symfile
+BurgNT              no errors, no warnings, lines   47, time  0.01, new symfile
+RDefs               no errors, no warnings, lines  145, time  0.01, new symfile
+DAG                 no errors, no warnings, lines  700, time  0.03, new symfile
+p386                no errors, no warnings, lines  618, time  0.03, new symfile
+reg386              no errors, no warnings, lines 1832, time  1.09, new symfile
+r386                no errors, no warnings, lines 5047, time  0.18, new symfile
+DAG_I               no errors, no warnings, lines  161, time  0.03, new symfile
+PrepGen_I           no errors, no warnings, lines   17, time  0.01, new symfile
+opTune_I            no errors, no warnings, lines   52, time  0.00, new symfile
+Memory              no errors, no warnings, lines    9, time  0.00, new symfile
+Iselect             no errors, no warnings, lines  245, time  0.03, new symfile
+BurgTables          no errors, no warnings, lines  988, time  0.02, new symfile
+Heuristics          no errors, no warnings, lines  653, time  0.03, new symfile
+Burg                no errors, no warnings, lines 4954, time  0.28, new symfile
+LinkProc            no errors, no warnings, lines  982, time  0.06, new symfile
+OcirDef             no errors, no warnings, lines  962, time 42949671.99, new symfile
+ocir                no errors, no warnings, lines  659, time  0.04, new symfile
+OcGraph             no errors, no warnings, lines  663, time  0.05, new symfile
+Rrd2Bin             no errors, no warnings, lines 2134, time  0.05, new symfile
+ScheStr             no errors, no warnings, lines  344, time  0.02, new symfile
+Rrd486              no errors, no warnings, lines  263, time  0.03, new symfile
+RrdUV               no errors, no warnings, lines  846, time  1.05, new symfile
+reorder             no errors, no warnings, lines   36, time  0.02, new symfile
+FLoops              no errors, no warnings, lines 1450, time  0.09, new symfile
+EmitBin             no errors, no warnings, lines 1826, time  0.06, new symfile
+EmitGAS             no errors, no warnings, lines 1636, time  0.07, new symfile
+EmitRrd             no errors, no warnings, lines 2221, time  0.09, new symfile
+Iselect_I           no errors, no warnings, lines  522, time  0.04, new symfile
+RDefs_I             no errors, no warnings, lines  664, time  0.03, new symfile
+DbgFace             no errors, no warnings, lines  903, time  0.03, new symfile
+formELF             no errors, no warnings, lines 1862, time  0.04, new symfile
+formOMF             no errors, no warnings, lines 1589, time  0.05, new symfile
+dbgCV               no errors, no warnings, lines  801, time  0.02, new symfile
+dbgHLL              no errors, no warnings, lines  821, time  0.03, new symfile
+EDIF                no errors, no warnings, lines   73, time  0.00, new symfile
+dbgEDIF             no errors, no warnings, lines 1243, time  0.04, new symfile
+dbgSTAB             no errors, no warnings, lines 1011, time 42949672.00, new symfile
+Polymorph           no errors, no warnings, lines   45, time  0.03, new symfile
+KillDead            no errors, no warnings, lines  212, time  0.01, new symfile
+opCode              no errors, no warnings, lines 3308, time  0.12, new symfile
+pcF                 no errors, no warnings, lines 1157, time  1.21, new symfile
+xcBrowse            no errors, no warnings, lines 1232, time  0.06, new symfile
+pcM2                no errors, no warnings, lines 4600, time  0.23, new symfile
+pcNum               no errors, no warnings, lines 1766, time  0.12, new symfile
+pcConst             no errors, no warnings, lines 5635, time 42949672.30, new symfile
+xrnsetjmp           no errors, no warnings, lines   23, time  0.00, new symfile
+xmRTS               no errors, no warnings, lines  645, time  0.00, new symfile
+xcMake              no errors, no warnings, lines 1079, time  0.04, new symfile
+xcMain              no errors, no warnings, lines 1151, time  1.06, new symfile
+xcF                 no errors, no warnings, lines  734, time  0.04, new symfile
+xm                  no errors, no warnings, lines  627, time  0.06, new symfile
+PFNConv             no errors, no warnings, lines  429, time  0.02
+QFile               no errors, no warnings, lines  198, time  0.01
+BitVect             no errors, no warnings, lines  349, time  0.01
+opCard64            no errors, no warnings, lines  139, time  0.00
+Memory              no errors, no warnings, lines   53, time  0.00
+EDIF                no errors, no warnings, lines    3, time  0.00
+New "enduser/tmp/xc.mkf" is generated using template "src/m/xc.tem"
+-------------------------------------------------------------------
+files: 106  errors: 0(0)  lines 119522  time: 0:08  speed 896415 l/m
+gcc -m32 -static -o enduser/xds/bin/xc enduser/tmp/Analysis.o enduser/tmp/AsmX86.o enduser/tmp/BitVect.o enduser/tmp/Burg.o enduser/tmp/BurgNT.o enduser/tmp/BurgTables.o enduser/tmp/Calc.o enduser/tmp/CodeDef.o enduser/tmp/CodeFace.o enduser/tmp/Color.o enduser/tmp/ControlGraph.o enduser/tmp/DAG.o enduser/tmp/DAG_I.o enduser/tmp/DbgFace.o enduser/tmp/Dirs.o enduser/tmp/EDIF.o enduser/tmp/Emit.o enduser/tmp/EmitBin.o enduser/tmp/EmitGAS.o enduser/tmp/EmitRrd.o enduser/tmp/FLoops.o enduser/tmp/Heuristics.o enduser/tmp/Iselect.o enduser/tmp/Iselect_I.o enduser/tmp/KillDead.o enduser/tmp/LinkProc.o enduser/tmp/Memory.o enduser/tmp/Modify.o enduser/tmp/ObjNames.o enduser/tmp/OcGraph.o enduser/tmp/OcirDef.o enduser/tmp/Optimize.o enduser/tmp/Options.o enduser/tmp/PFNConv.o enduser/tmp/Polymorph.o enduser/tmp/PrepGen.o enduser/tmp/PrepGen_I.o enduser/tmp/QFile.o enduser/tmp/RDefs.o enduser/tmp/RDefs_D.o enduser/tmp/RDefs_I.o enduser/tmp/Registry.o enduser/tmp/Rrd2Bin.o enduser/tmp/Rrd486.o enduser/tmp/RrdUV.o enduser/tmp/ScheStr.o enduser/tmp/TestIO.o enduser/tmp/dbgCV.o enduser/tmp/dbgEDIF.o enduser/tmp/dbgHLL.o enduser/tmp/dbgSTAB.o enduser/tmp/desc386.o enduser/tmp/formELF.o enduser/tmp/formOMF.o enduser/tmp/ir.o enduser/tmp/ir_D.o enduser/tmp/ir_def.o enduser/tmp/ocir.o enduser/tmp/opAttrs.o enduser/tmp/opCard64.o enduser/tmp/opCode.o enduser/tmp/opDef.o enduser/tmp/opE.o enduser/tmp/opIO.o enduser/tmp/opProcs.o enduser/tmp/opSample.o enduser/tmp/opStd.o enduser/tmp/opTune.o enduser/tmp/opTune_I.o enduser/tmp/p386.o enduser/tmp/pcB.o enduser/tmp/pcConst.o enduser/tmp/pcF.o enduser/tmp/pcK.o enduser/tmp/pcM2.o enduser/tmp/pcNum.o enduser/tmp/pcO.o enduser/tmp/pcS.o enduser/tmp/pcVisIR.o enduser/tmp/r386.o enduser/tmp/reg386.o enduser/tmp/reorder.o enduser/tmp/ssa.o enduser/tmp/xcBrowse.o enduser/tmp/xcF.o enduser/tmp/xcMain.o enduser/tmp/xcMake.o enduser/tmp/xcStr.o enduser/tmp/xiEnv.o enduser/tmp/xiFiles.o enduser/tmp/xm.o enduser/tmp/xmArgs.o enduser/tmp/xmConfig.o enduser/tmp/xmErrors.o enduser/tmp/xmFS.o enduser/tmp/xmISOFM.o enduser/tmp/xmPlatform.o  /home/maksim/work/xds-2.60/bin/xds/lib/x86/libts.a enduser/xds/lib/x86/libxds.a  -lm -lncurses
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/POSIX/posix.prj -sym_place:=enduser/tmp:enduser/xds/sym/x86 -decor=rt -woff+
+
+Make project "src/POSIX/posix.prj"
+ctype               no errors, no warnings, lines   27, time  0.00, new symfile
+limits              no errors, no warnings, lines  137, time  0.00, new symfile
+dirent              no errors, no warnings, lines   47, time  0.00, new symfile
+errno               no errors, no warnings, lines   94, time  0.00, new symfile
+types               no errors, no warnings, lines   37, time  0.00, new symfile
+time                no errors, no warnings, lines   76, time  0.00, new symfile
+stat                no errors, no warnings, lines  114, time  0.00, new symfile
+fcntl               no errors, no warnings, lines  132, time  0.00, new symfile
+float               no errors, no warnings, lines  123, time  0.00, new symfile
+grp                 no errors, no warnings, lines   32, time  0.00, new symfile
+locale              no errors, no warnings, lines   90, time  0.00, new symfile
+math                no errors, no warnings, lines   44, time  0.00, new symfile
+pwd                 no errors, no warnings, lines   35, time  0.00, new symfile
+setjmp              no errors, no warnings, lines   39, time  0.00, new symfile
+signal              no errors, no warnings, lines  118, time  0.00, new symfile
+stddef              no errors, no warnings, lines   23, time  0.00, new symfile
+stdio               no errors, no warnings, lines  165, time  0.01, new symfile
+stdlib              no errors, no warnings, lines   90, time  0.00, new symfile
+string              no errors, no warnings, lines   45, time  0.00, new symfile
+times               no errors, no warnings, lines   26, time  0.01, new symfile
+unistd              no errors, no warnings, lines  155, time  0.00, new symfile
+utime               no errors, no warnings, lines   22, time  0.00, new symfile
+utsname             no errors, no warnings, lines   24, time  0.00, new symfile
+wait                no errors, no warnings, lines   43, time  0.00, new symfile
+termios             no errors, no warnings, lines  201, time  0.00, new symfile
+-------------------------------------------------------------------
+files: 25  errors: 0(0)  lines 1939  time: 0:00  speed 10000 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/POSIX/mac/libmac_posix.prj -lib_place:=enduser/xds/lib/x86 -sym_place:=enduser/tmp:enduser/xds/sym/x86 -tmp_place:=enduser/tmp -decor=rt -woff+
+
+Make project "src/POSIX/mac/libmac_posix.prj"
+mac_stat            no errors, no warnings, lines   27, time  0.00, new symfile
+mac_wait            no errors, no warnings, lines   23, time  0.00, new symfile
+mac_stat            no errors, no warnings, lines   67, time  0.00
+mac_wait            no errors, no warnings, lines   63, time  0.00
+New "enduser/tmp/libmac_posix.mkf" is generated using template "src/POSIX/mac/../xds.tem"
+-------------------------------------------------------------------
+files: 4  errors: 0(0)  lines 180  time: 0:00  speed 10000 l/m
+rm -f enduser/xds/lib/x86/libmac_posix.a
+ar q enduser/xds/lib/x86/libmac_posix.a enduser/tmp/mac_stat.o enduser/tmp/mac_wait.o
+ranlib enduser/xds/lib/x86/libmac_posix.a
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/Linux/linux.prj -sym_place:=enduser/tmp:enduser/xds/sym/x86 -decor=rt -woff+
+
+Make project "src/Linux/linux.prj"
+ctype               no errors, no warnings, lines   27, time  0.00, new symfile
+limits              no errors, no warnings, lines  137, time  0.00, new symfile
+dirent              no errors, no warnings, lines   44, time  0.01, new symfile
+errno               no errors, no warnings, lines  184, time  0.00, new symfile
+types               no errors, no warnings, lines   41, time  0.00, new symfile
+time                no errors, no warnings, lines  112, time  0.00, new symfile
+stat                no errors, no warnings, lines  169, time  0.00, new symfile
+fcntl               no errors, no warnings, lines  159, time  0.00, new symfile
+float               no errors, no warnings, lines  123, time  0.00, new symfile
+glob                no errors, no warnings, lines   54, time  0.00, new symfile
+grp                 no errors, no warnings, lines   32, time  0.00, new symfile
+locale              no errors, no warnings, lines   90, time  0.00, new symfile
+math                no errors, no warnings, lines   44, time  0.00, new symfile
+signal              no errors, no warnings, lines  342, time  0.00, new symfile
+pthread             no errors, no warnings, lines  241, time  0.01, new symfile
+pwd                 no errors, no warnings, lines   35, time  0.00, new symfile
+select              no errors, no warnings, lines   41, time  0.00, new symfile
+semaphore           no errors, no warnings, lines   64, time  0.00, new symfile
+setjmp              no errors, no warnings, lines   39, time  0.00, new symfile
+spawn               no errors, no warnings, lines   63, time  0.00, new symfile
+stddef              no errors, no warnings, lines   23, time  0.00, new symfile
+stdio               no errors, no warnings, lines  167, time  0.00, new symfile
+stdlib              no errors, no warnings, lines   97, time  0.00, new symfile
+string              no errors, no warnings, lines   46, time  0.00, new symfile
+termios             no errors, no warnings, lines  201, time  0.00, new symfile
+times               no errors, no warnings, lines   26, time  0.00, new symfile
+unistd              no errors, no warnings, lines  365, time  0.00, new symfile
+utime               no errors, no warnings, lines   22, time  0.00, new symfile
+utsname             no errors, no warnings, lines   31, time  0.00, new symfile
+wait                no errors, no warnings, lines   49, time  0.00, new symfile
+statvfs             no errors, no warnings, lines   39, time  0.00, new symfile
+-------------------------------------------------------------------
+files: 31  errors: 0(0)  lines 3107  time: 0:00  speed 10000 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/X11/X11.prj -sym_place:=enduser/tmp:enduser/xds/sym/x86 -decor=rt -woff+
+
+Make project "src/X11/X11.prj"
+DECkeysym           no errors, no warnings, lines   43, time  0.00, new symfile
+Sunkeysym           no errors, no warnings, lines   82, time  0.00, new symfile
+X                   no errors, no warnings, lines  621, time  0.01, new symfile
+Xlib                no errors, no warnings, lines 3464, time  0.00, new symfile
+Xauth               no errors, no warnings, lines   97, time  0.00, new symfile
+Xlocale             no errors, no warnings, lines   41, time  0.00, new symfile
+ap_keysym           no errors, no warnings, lines   46, time  0.00, new symfile
+Xutil               no errors, no warnings, lines  673, time  0.01, new symfile
+Xresource           no errors, no warnings, lines  302, time  0.00, new symfile
+Intrinsic           no errors, no warnings, lines 2399, time  0.01, new symfile
+Vendor              no errors, no warnings, lines   44, time  0.00, new symfile
+Xcms                no errors, no warnings, lines  684, time  0.01, new symfile
+Xmd                 no errors, no warnings, lines   83, time  0.00, new symfile
+cursorfont          no errors, no warnings, lines  103, time  0.00, new symfile
+IntrinsicP          no errors, no warnings, lines 3098, time  0.01, new symfile
+Xdmcp               no errors, no warnings, lines  193, time  0.00, new symfile
+keysym              no errors, no warnings, lines  721, time  0.00, new symfile
+Shell               no errors, no warnings, lines  196, time  0.00, new symfile
+X10                 no errors, no warnings, lines  104, time  0.01, new symfile
+keysymdef           no errors, no warnings, lines 1449, time  0.00, new symfile
+ICElib              no errors, no warnings, lines  326, time  0.00, new symfile
+SMlib               no errors, no warnings, lines  452, time  0.01, new symfile
+ShellP              no errors, no warnings, lines  745, time  0.00, new symfile
+Xatom               no errors, no warnings, lines   98, time  0.00, new symfile
+xpm                 no errors, no warnings, lines  513, time  0.01, new symfile
+-------------------------------------------------------------------
+files: 25  errors: 0(0)  lines 16577  time: 0:00  speed 10000 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/X11/macro/X11/libmac_X11.prj -lib_place:=enduser/xds/lib/x86 -sym_place:=enduser/tmp:enduser/xds/sym/x86 -tmp_place:=enduser/tmp -decor=rt -woff+
+
+Make project "src/X11/macro/X11/libmac_X11.prj"
+mac_Xlib            no errors, no warnings, lines   84, time  0.00, new symfile
+mac_Xutil           no errors, no warnings, lines   49, time  0.00, new symfile
+mac_Xresource       no errors, no warnings, lines   37, time  0.01, new symfile
+mac_Xcms            no errors, no warnings, lines   32, time  0.00, new symfile
+mac_Intrinsic       no errors, no warnings, lines   60, time  0.01, new symfile
+mac_IntrinsicP      no errors, no warnings, lines   45, time  0.00, new symfile
+mac_xpm             no errors, no warnings, lines   46, time  0.01, new symfile
+mac_Xlib            no errors, no warnings, lines  341, time  0.00
+mac_Xutil           no errors, no warnings, lines   94, time  0.00
+mac_Xresource       no errors, no warnings, lines   65, time  0.00
+mac_Xcms            no errors, no warnings, lines   49, time  0.00
+mac_Intrinsic       no errors, no warnings, lines  134, time  0.01
+mac_IntrinsicP      no errors, no warnings, lines   84, time  0.00
+mac_xpm             no errors, no warnings, lines   73, time  0.00
+New "enduser/tmp/libmac_X11.mkf" is generated using template "/home/maksim/work/xds-2.60/bin/xds/bin/xc.tem"
+-------------------------------------------------------------------
+files: 14  errors: 0(0)  lines 1193  time: 0:00  speed 10000 l/m
+rm -f enduser/xds/lib/x86/libmac_X11.a
+ar q enduser/xds/lib/x86/libmac_X11.a enduser/tmp/mac_Intrinsic.o enduser/tmp/mac_IntrinsicP.o enduser/tmp/mac_Xcms.o enduser/tmp/mac_Xlib.o enduser/tmp/mac_Xresource.o enduser/tmp/mac_Xutil.o enduser/tmp/mac_xpm.o
+ranlib enduser/xds/lib/x86/libmac_X11.a
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/X11/Xm.prj -sym_place:=enduser/tmp:enduser/xds/sym/x86 -decor=rt -woff+
+
+Make project "src/X11/Xm.prj"
+ArrowB              no errors, no warnings, lines   67, time  0.01, new symfile
+DrawingA            no errors, no warnings, lines   67, time  0.00, new symfile
+PanedW              no errors, no warnings, lines   73, time  0.01, new symfile
+SeparatoG           no errors, no warnings, lines   73, time  0.00, new symfile
+ArrowBG             no errors, no warnings, lines   68, time  0.00, new symfile
+DrawnB              no errors, no warnings, lines   73, time  0.01, new symfile
+Protocols           no errors, no warnings, lines  138, time  0.00, new symfile
+Separator           no errors, no warnings, lines   67, time  0.01, new symfile
+AtomMgr             no errors, no warnings, lines   42, time  0.00, new symfile
+Xm                  no errors, no warnings, lines 2350, time  0.01, new symfile
+FileSB              no errors, no warnings, lines   88, time  0.01, new symfile
+PushB               no errors, no warnings, lines   73, time  0.01, new symfile
+Text                no errors, no warnings, lines  231, time  0.00, new symfile
+BulletinB           no errors, no warnings, lines   74, time  0.00, new symfile
+Frame               no errors, no warnings, lines   68, time  0.00, new symfile
+PushBG              no errors, no warnings, lines   77, time  0.00, new symfile
+TextF               no errors, no warnings, lines  196, time  0.01, new symfile
+CascadeB            no errors, no warnings, lines   72, time  0.00, new symfile
+Label               no errors, no warnings, lines   71, time  0.00, new symfile
+RepType             no errors, no warnings, lines   88, time  0.00, new symfile
+ToggleB             no errors, no warnings, lines   78, time  0.00, new symfile
+CascadeBG           no errors, no warnings, lines   79, time  0.01, new symfile
+LabelG              no errors, no warnings, lines   78, time  0.00, new symfile
+RowColumn           no errors, no warnings, lines  113, time  0.01, new symfile
+ToggleBG            no errors, no warnings, lines   86, time  0.00, new symfile
+Command             no errors, no warnings, lines   82, time  0.01, new symfile
+List                no errors, no warnings, lines  177, time  0.01, new symfile
+Scale               no errors, no warnings, lines   73, time  0.00, new symfile
+VendorS             no errors, no warnings, lines   65, time  0.00, new symfile
+CutPaste            no errors, no warnings, lines  166, time  0.01, new symfile
+MainW               no errors, no warnings, lines   79, time  0.00, new symfile
+Screen              no errors, no warnings, lines   65, time  0.01, new symfile
+VirtKeys            no errors, no warnings, lines   68, time  0.00, new symfile
+DialogS             no errors, no warnings, lines   65, time  0.00, new symfile
+MenuShell           no errors, no warnings, lines   66, time  0.00, new symfile
+ScrollBar           no errors, no warnings, lines   83, time  0.00, new symfile
+Display             no errors, no warnings, lines   88, time  0.00, new symfile
+MessageB            no errors, no warnings, lines  108, time  0.00, new symfile
+ScrolledW           no errors, no warnings, lines   76, time  0.01, new symfile
+XmStrDefs           no errors, no warnings, lines  915, time  0.00, new symfile
+DragDrop            no errors, no warnings, lines  613, time  0.01, new symfile
+MwmUtil             no errors, no warnings, lines  177, time  0.00, new symfile
+SelectioB           no errors, no warnings, lines   80, time  0.00, new symfile
+Form                no errors, no warnings, lines  128, time  0.00, new symfile
+-------------------------------------------------------------------
+files: 44  errors: 0(0)  lines 7664  time: 0:00  speed 4598400 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/X11/XmP.prj -sym_place:=enduser/tmp:enduser/xds/sym/x86 -decor=rt -woff+
+
+Make project "src/X11/XmP.prj"
+XmP                 no errors, no warnings, lines 5276, time  1.02, new symfile
+LabelP              no errors, no warnings, lines  206, time  0.01, new symfile
+DrawnBP             no errors, no warnings, lines  128, time  0.01, new symfile
+PanedWP             no errors, no warnings, lines  185, time  0.01, new symfile
+SeparatoGP          no errors, no warnings, lines  185, time  0.01, new symfile
+ArrowBGP            no errors, no warnings, lines  126, time  0.01, new symfile
+BulletinBP          no errors, no warnings, lines  241, time  0.00, new symfile
+SelectioBP          no errors, no warnings, lines  315, time  0.01, new symfile
+FileSBP             no errors, no warnings, lines  236, time  0.01, new symfile
+ProtocolsP          no errors, no warnings, lines  240, time  0.01, new symfile
+SeparatorP          no errors, no warnings, lines  108, time  0.00, new symfile
+ArrowBP             no errors, no warnings, lines  118, time  0.00, new symfile
+PushBP              no errors, no warnings, lines  134, time  0.01, new symfile
+TearOffBP           no errors, no warnings, lines  101, time  0.01, new symfile
+FormP               no errors, no warnings, lines  160, time  0.01, new symfile
+TearOffP            no errors, no warnings, lines   81, time  0.01, new symfile
+LabelGP             no errors, no warnings, lines  326, time  0.01, new symfile
+PushBGP             no errors, no warnings, lines  246, time  0.01, new symfile
+FrameP              no errors, no warnings, lines  138, time  0.01, new symfile
+RowColumnP          no errors, no warnings, lines  628, time  0.01, new symfile
+RCUtilsP            no errors, no warnings, lines   48, time  0.01, new symfile
+TextFP              no errors, no warnings, lines  496, time  0.01, new symfile
+TextP               no errors, no warnings, lines 1163, time  0.01, new symfile
+CascadeBGP          no errors, no warnings, lines  286, time  0.01, new symfile
+CascadeBP           no errors, no warnings, lines  200, time  0.01, new symfile
+SashP               no errors, no warnings, lines  107, time  0.01, new symfile
+ToggleBGP           no errors, no warnings, lines  270, time  0.01, new symfile
+CommandP            no errors, no warnings, lines  168, time  0.01, new symfile
+ScrollBarP          no errors, no warnings, lines  195, time  0.01, new symfile
+DrawingAP           no errors, no warnings, lines  137, time  0.00, new symfile
+ScrolledWP          no errors, no warnings, lines  187, time  0.01, new symfile
+ListP               no errors, no warnings, lines  348, time  0.01, new symfile
+ToggleBP            no errors, no warnings, lines  153, time  0.01, new symfile
+ScaleP              no errors, no warnings, lines  152, time  0.01, new symfile
+CutPasteP           no errors, no warnings, lines  166, time  0.01, new symfile
+MainWP              no errors, no warnings, lines  160, time  0.01, new symfile
+DialogSP            no errors, no warnings, lines  150, time  0.01, new symfile
+MenuShellP          no errors, no warnings, lines  153, time  0.00, new symfile
+XmAll               no errors, no warnings, lines 5884, time  0.02, new symfile
+MenuUtilP           no errors, no warnings, lines  133, time  0.01, new symfile
+MessageBP           no errors, no warnings, lines  186, time  0.01, new symfile
+XmAllP              no errors, no warnings, lines 15497, time  0.07, new symfile
+-------------------------------------------------------------------
+files: 42  errors: 0(0)  lines 35417  time: 0:01  speed 1517871 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/X11/macro/Xm/libmac_Xm.prj -lib_place:=enduser/xds/lib/x86 -sym_place:=enduser/tmp:enduser/xds/sym/x86 -tmp_place:=enduser/tmp -decor=rt -woff+
+
+Make project "src/X11/macro/Xm/libmac_Xm.prj"
+mac_XmAllP          no errors, no warnings, lines  533, time  0.01, new symfile
+mac_XmAllP          no errors, no warnings, lines 2526, time  0.05
+New "enduser/tmp/libmac_Xm.mkf" is generated using template "/home/maksim/work/xds-2.60/bin/xds/bin/xc.tem"
+-------------------------------------------------------------------
+files: 2  errors: 0(0)  lines 3059  time: 0:00  speed 10000 l/m
+rm -f enduser/xds/lib/x86/libmac_Xm.a
+ar q enduser/xds/lib/x86/libmac_Xm.a enduser/tmp/mac_XmAllP.o
+ranlib enduser/xds/lib/x86/libmac_Xm.a
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xm =p src/TSlibs/tslib -mode:=nodebug -native_library:+ -decor=rt -woff+
+
+Make project "src/TSlibs/tslib"
+#file "src/TSlibs/tslib.prj" (line 138): undeclared equation "INCLUDE"
+BiosIO              no errors, no warnings, lines   26, time  0.01, new symfile
+Str                 no errors, no warnings, lines   95, time  0.00, new symfile
+FIO                 no errors, no warnings, lines  188, time  0.00, new symfile
+FIOR                no errors, no warnings, lines   16, time  0.00, new symfile
+Lib                 no errors, no warnings, lines   84, time  0.00, new symfile
+MATHLIB             no errors, no warnings, lines   72, time  0.00, new symfile
+ShtHeap             no errors, no warnings, lines   35, time  0.00, new symfile
+SysErr              no errors, no warnings, lines   24, time  0.00, new symfile
+IO                  no errors, no warnings, lines  123, time  0.00, new symfile
+xtsFIO              no errors, no warnings, lines   37, time  0.00, new symfile
+xtsLib              no errors, no warnings, lines   16, time  0.00, new symfile
+xtsIO               no errors, no warnings, lines   12, time  0.00, new symfile
+Str                 no errors, no warnings, lines  537, time  0.01
+FIO                 no errors, no warnings, lines 1073, time  0.00
+FIOR                no errors, no warnings, lines  151, time  0.01
+Lib                 no errors, no warnings, lines  612, time  0.00
+MATHLIB             no errors, no warnings, lines  137, time  0.00
+ShtHeap             no errors, no warnings, lines  418, time  0.00
+IO                  no errors, no warnings, lines  635, time  0.00
+New "enduser/tmp/tslib.mkf" is generated using template "src/TSlibs/xds.tem"
+-------------------------------------------------------------------
+files: 19  errors: 0(0)  lines 4291  time: 0:00  speed 10000 l/m
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/BiosIO.o enduser/xds/C/x86/BiosIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ChanConsts.o enduser/xds/C/x86/ChanConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ConvTypes.o enduser/xds/C/x86/ConvTypes.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/EXCEPTIONS.o enduser/xds/C/x86/EXCEPTIONS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FIO.o enduser/xds/C/x86/FIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FIOR.o enduser/xds/C/x86/FIOR.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FileName.o enduser/xds/C/x86/FileName.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FileSys.o enduser/xds/C/x86/FileSys.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IO.o enduser/xds/C/x86/IO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IOChan.o enduser/xds/C/x86/IOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IOConsts.o enduser/xds/C/x86/IOConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Lib.o enduser/xds/C/x86/Lib.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongConv.o enduser/xds/C/x86/LongConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongMath.o enduser/xds/C/x86/LongMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongStr.o enduser/xds/C/x86/LongStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/MATHLIB.o enduser/xds/C/x86/MATHLIB.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ProgEnv.o enduser/xds/C/x86/ProgEnv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ProgExec.o enduser/xds/C/x86/ProgExec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RndFile.o enduser/xds/C/x86/RndFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SeqFile.o enduser/xds/C/x86/SeqFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ShtHeap.o enduser/xds/C/x86/ShtHeap.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/StdChans.o enduser/xds/C/x86/StdChans.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Storage.o enduser/xds/C/x86/Storage.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Str.o enduser/xds/C/x86/Str.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Strings.o enduser/xds/C/x86/Strings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SysClock.o enduser/xds/C/x86/SysClock.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SysErr.o enduser/xds/C/x86/SysErr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/TextIO.o enduser/xds/C/x86/TextIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/TimeConv.o enduser/xds/C/x86/TimeConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/WholeStr.o enduser/xds/C/x86/WholeStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/XIOChan.o enduser/xds/C/x86/XIOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/platform.o enduser/xds/C/x86/platform.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xFilePos.o enduser/xds/C/x86/xFilePos.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xtsFIO.o enduser/xds/C/x86/xtsFIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xtsIO.o enduser/xds/C/x86/xtsIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xtsLib.o enduser/xds/C/x86/xtsLib.c
+rm -f enduser/xds/lib/x86/libts.a
+ar q enduser/xds/lib/x86/libts.a enduser/tmp/BiosIO.o enduser/tmp/ChanConsts.o enduser/tmp/ConvTypes.o enduser/tmp/EXCEPTIONS.o enduser/tmp/FIO.o enduser/tmp/FIOR.o enduser/tmp/FileName.o enduser/tmp/FileSys.o enduser/tmp/IO.o enduser/tmp/IOChan.o enduser/tmp/IOConsts.o enduser/tmp/Lib.o enduser/tmp/LongConv.o enduser/tmp/LongMath.o enduser/tmp/LongStr.o enduser/tmp/MATHLIB.o enduser/tmp/ProgEnv.o enduser/tmp/ProgExec.o enduser/tmp/RndFile.o enduser/tmp/SeqFile.o enduser/tmp/ShtHeap.o enduser/tmp/StdChans.o enduser/tmp/Storage.o enduser/tmp/Str.o enduser/tmp/Strings.o enduser/tmp/SysClock.o enduser/tmp/SysErr.o enduser/tmp/TextIO.o enduser/tmp/TimeConv.o enduser/tmp/WholeStr.o enduser/tmp/XIOChan.o enduser/tmp/platform.o enduser/tmp/xFilePos.o enduser/tmp/xtsFIO.o enduser/tmp/xtsIO.o enduser/tmp/xtsLib.o
+ranlib enduser/xds/lib/x86/libts.a
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p src/POSIX/posix.prj -sym_place:=enduser/tmp:enduser/xds/sym/x86 -decor=rt -woff+
+
+Make project "src/POSIX/posix.prj"
+ctype               no errors, no warnings, lines   27, time  0.00, new symfile
+limits              no errors, no warnings, lines  137, time  0.00, new symfile
+dirent              no errors, no warnings, lines   47, time  0.00, new symfile
+errno               no errors, no warnings, lines   94, time  0.00, new symfile
+types               no errors, no warnings, lines   37, time  0.00, new symfile
+time                no errors, no warnings, lines   76, time  0.01, new symfile
+stat                no errors, no warnings, lines  114, time  0.00, new symfile
+fcntl               no errors, no warnings, lines  132, time  0.00, new symfile
+float               no errors, no warnings, lines  123, time  0.00, new symfile
+grp                 no errors, no warnings, lines   32, time  0.00, new symfile
+locale              no errors, no warnings, lines   90, time  0.00, new symfile
+math                no errors, no warnings, lines   44, time  0.00, new symfile
+pwd                 no errors, no warnings, lines   35, time  0.00, new symfile
+setjmp              no errors, no warnings, lines   39, time  0.00, new symfile
+signal              no errors, no warnings, lines  118, time  0.00, new symfile
+stddef              no errors, no warnings, lines   23, time  0.00, new symfile
+stdio               no errors, no warnings, lines  165, time  0.00, new symfile
+stdlib              no errors, no warnings, lines   90, time  0.01, new symfile
+string              no errors, no warnings, lines   45, time  0.00, new symfile
+times               no errors, no warnings, lines   26, time  0.00, new symfile
+unistd              no errors, no warnings, lines  155, time  0.00, new symfile
+utime               no errors, no warnings, lines   22, time  0.00, new symfile
+utsname             no errors, no warnings, lines   24, time  0.00, new symfile
+wait                no errors, no warnings, lines   43, time  0.00, new symfile
+termios             no errors, no warnings, lines  201, time  0.00, new symfile
+-------------------------------------------------------------------
+files: 25  errors: 0(0)  lines 1939  time: 0:00  speed 10000 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xc =p =a src/TSlibs/tslib -mode:=nodebug -native_library:+ -lookup=*.sym=enduser/tmp -decor=rt -woff+
+
+Make project "src/TSlibs/tslib"
+#file "src/TSlibs/tslib.prj" (line 138): undeclared equation "INCLUDE"
+BiosIO              no errors, no warnings, lines   26, time  0.00, new symfile
+Str                 no errors, no warnings, lines   95, time  0.00, new symfile
+FIO                 no errors, no warnings, lines  188, time  0.00, new symfile
+FIOR                no errors, no warnings, lines   16, time  0.00, new symfile
+Lib                 no errors, no warnings, lines   84, time  0.00, new symfile
+MATHLIB             no errors, no warnings, lines   72, time  0.00, new symfile
+ShtHeap             no errors, no warnings, lines   35, time  0.00, new symfile
+SysErr              no errors, no warnings, lines   24, time  0.00, new symfile
+IO                  no errors, no warnings, lines  123, time  0.00, new symfile
+Window              no errors, no warnings, lines  372, time  0.02, new symfile
+h2d_termios         no errors, no warnings, lines 1031, time  0.00, new symfile
+h2d_curses          no errors, no warnings, lines 4618, time  0.00, new symfile
+h2d_poll            no errors, no warnings, lines  491, time  0.00, new symfile
+xtsFIO              no errors, no warnings, lines   37, time  0.00, new symfile
+xtsLib              no errors, no warnings, lines   16, time  0.00, new symfile
+xtsIO               no errors, no warnings, lines   12, time  0.00, new symfile
+xtsConM             no errors, no warnings, lines  101, time  0.01, new symfile
+xtsWB               no errors, no warnings, lines   96, time  0.00, new symfile
+xtsiterXY           no errors, no warnings, lines   26, time  0.00, new symfile
+xtszOrder           no errors, no warnings, lines   32, time  0.00, new symfile
+BiosIO              no errors, no warnings, lines  131, time  0.00
+Str                 no errors, no warnings, lines  537, time  0.01
+FIO                 no errors, no warnings, lines 1073, time  0.04
+FIOR                no errors, no warnings, lines  151, time  0.01
+Lib                 no errors, no warnings, lines  612, time  0.01
+MATHLIB             no errors, no warnings, lines  137, time  0.00
+ShtHeap             no errors, no warnings, lines  418, time  0.01
+IO                  no errors, no warnings, lines  635, time  0.01
+Window              no errors, no warnings, lines 1697, time  0.04
+xtsConM             no errors, no warnings, lines  267, time  0.02
+xtsWB               no errors, no warnings, lines  368, time  0.01
+xtsiterXY           no errors, no warnings, lines   59, time  0.00
+xtszOrder           no errors, no warnings, lines  100, time  0.00
+New "enduser/tmp/tslib.mkf" is generated using template "src/TSlibs/xds.tem"
+-------------------------------------------------------------------
+files: 33  errors: 0(0)  lines 13680  time: 0:00  speed 8208000 l/m
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ChanConsts.o enduser/xds/C/x86/ChanConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ConvTypes.o enduser/xds/C/x86/ConvTypes.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/EXCEPTIONS.o enduser/xds/C/x86/EXCEPTIONS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FileName.o enduser/xds/C/x86/FileName.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/FileSys.o enduser/xds/C/x86/FileSys.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IOChan.o enduser/xds/C/x86/IOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IOConsts.o enduser/xds/C/x86/IOConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/IOLink.o enduser/xds/C/x86/IOLink.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongConv.o enduser/xds/C/x86/LongConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongMath.o enduser/xds/C/x86/LongMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/LongStr.o enduser/xds/C/x86/LongStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Printf.o enduser/xds/C/x86/Printf.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ProgEnv.o enduser/xds/C/x86/ProgEnv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/ProgExec.o enduser/xds/C/x86/ProgExec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/RndFile.o enduser/xds/C/x86/RndFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SeqFile.o enduser/xds/C/x86/SeqFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/StdChans.o enduser/xds/C/x86/StdChans.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Storage.o enduser/xds/C/x86/Storage.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/Strings.o enduser/xds/C/x86/Strings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SysClock.o enduser/xds/C/x86/SysClock.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/SysErr.o enduser/xds/C/x86/SysErr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/TextIO.o enduser/xds/C/x86/TextIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/TimeConv.o enduser/xds/C/x86/TimeConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/WholeStr.o enduser/xds/C/x86/WholeStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/XIOChan.o enduser/xds/C/x86/XIOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/platform.o enduser/xds/C/x86/platform.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xFilePos.o enduser/xds/C/x86/xFilePos.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xtsFIO.o enduser/xds/C/x86/xtsFIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xtsIO.o enduser/xds/C/x86/xtsIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_library -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/x86 -c -fpack-struct=4 -o enduser/tmp/xtsLib.o enduser/xds/C/x86/xtsLib.c
+rm -f enduser/xds/lib/x86/libts.a
+ar q enduser/xds/lib/x86/libts.a enduser/tmp/BiosIO.o enduser/tmp/ChanConsts.o enduser/tmp/ConvTypes.o enduser/tmp/EXCEPTIONS.o enduser/tmp/FIO.o enduser/tmp/FIOR.o enduser/tmp/FileName.o enduser/tmp/FileSys.o enduser/tmp/IO.o enduser/tmp/IOChan.o enduser/tmp/IOConsts.o enduser/tmp/IOLink.o enduser/tmp/Lib.o enduser/tmp/LongConv.o enduser/tmp/LongMath.o enduser/tmp/LongStr.o enduser/tmp/MATHLIB.o enduser/tmp/Printf.o enduser/tmp/ProgEnv.o enduser/tmp/ProgExec.o enduser/tmp/RndFile.o enduser/tmp/SeqFile.o enduser/tmp/ShtHeap.o enduser/tmp/StdChans.o enduser/tmp/Storage.o enduser/tmp/Str.o enduser/tmp/Strings.o enduser/tmp/SysClock.o enduser/tmp/SysErr.o enduser/tmp/TextIO.o enduser/tmp/TimeConv.o enduser/tmp/WholeStr.o enduser/tmp/Window.o enduser/tmp/XIOChan.o enduser/tmp/platform.o enduser/tmp/xFilePos.o enduser/tmp/xtsConM.o enduser/tmp/xtsFIO.o enduser/tmp/xtsIO.o enduser/tmp/xtsLib.o enduser/tmp/xtsWB.o enduser/tmp/xtsiterXY.o enduser/tmp/xtszOrder.o
+ranlib enduser/xds/lib/x86/libts.a
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+make -f enduser/tmp/tslib.mkf
+
+make: 'enduser/xds/lib/x86/libts.a' is up to date.
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux/enduser/xds/lib/x86
+
+xm =g ../../../../src/TSlibs/tslib -mode:=user -native_library:+ -decor=rt -woff+
+
+Generate makefile for project "../../../../src/TSlibs/tslib"
+New "tslib.mkf" is generated using template "../../../../src/TSlibs/xds.tem"
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+enduser/xds/bin/xc =p src/h2d/h2d -mode:=enduser -decor=rt -woff+ -usestaticclibs:+
+
+Make project "src/h2d/h2d"
+LongStrs            no errors, no warnings, lines  375, time  0.02, new symfile
+adt                 no errors, no warnings, lines 1183, time  0.02, new symfile
+H2DFile             no errors, no warnings, lines  775, time  0.03, new symfile
+H2DMsg              no errors, no warnings, lines  476, time  0.01, new symfile
+H2DObjs             no errors, no warnings, lines 1776, time  0.17, new symfile
+H2DCfg              no errors, no warnings, lines  426, time  0.04, new symfile
+H2DScan             no errors, no warnings, lines 1752, time  0.08, new symfile
+H2DParse            no errors, no warnings, lines 4592, time  1.24, new symfile
+H2DGen              no errors, no warnings, lines 5155, time  0.17, new symfile
+h2d                 no errors, no warnings, lines  297, time  0.01, new symfile
+New "enduser/tmp/h2d.mkf" is generated using template "enduser/xds/bin/xc.tem"
+-------------------------------------------------------------------
+files: 10  errors: 0(0)  lines 16807  time: 0:01  speed 593188 l/m
+gcc -m32 -static -o enduser/xds/bin/h2d enduser/tmp/H2DCfg.o enduser/tmp/H2DFile.o enduser/tmp/H2DGen.o enduser/tmp/H2DMsg.o enduser/tmp/H2DObjs.o enduser/tmp/H2DParse.o enduser/tmp/H2DScan.o enduser/tmp/LongStrs.o enduser/tmp/adt.o enduser/tmp/h2d.o  enduser/xds/lib/x86/libts.a enduser/xds/lib/x86/libxds.a  -lm -lncurses
+
+------
+DONE
+------
+
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xm =a =p src/m/lib -mode:=nodebug -native_library:- -decor=rt -woff+ -env_host=linux -env_target=linux
+
+Make project "src/m/lib"
+EXCEPTIONS          no errors, no warnings, lines   42, time  0.00, new symfile
+M2EXCEPTION         no errors, no warnings, lines   24, time  0.00, new symfile
+COROUTINES          no errors, no warnings, lines   87, time  0.00, new symfile
+TERMINATION         no errors, no warnings, lines   11, time  0.00, new symfile
+LowReal             no errors, no warnings, lines   71, time  0.00, new symfile
+LowLong             no errors, no warnings, lines   71, time  0.00, new symfile
+ChanConsts          no errors, no warnings, lines   52, time  0.00, new symfile
+CharClass           no errors, no warnings, lines   23, time  0.01, new symfile
+ConvTypes           no errors, no warnings, lines   25, time  0.00, new symfile
+IOConsts            no errors, no warnings, lines   16, time  0.00, new symfile
+IOChan              no errors, no warnings, lines  153, time  0.00, new symfile
+IOResult            no errors, no warnings, lines   25, time  0.00, new symfile
+ProgramArgs         no errors, no warnings, lines   25, time  0.00, new symfile
+Processes           no errors, no warnings, lines  119, time  0.00, new symfile
+Semaphores          no errors, no warnings, lines   40, time  0.00, new symfile
+XPrs                no errors, no warnings, lines   27, time  0.00, new symfile
+RealIO              no errors, no warnings, lines   47, time  0.00, new symfile
+RealMath            no errors, no warnings, lines   51, time  0.00, new symfile
+RealStr             no errors, no warnings, lines   48, time  0.00, new symfile
+XReal               no errors, no warnings, lines   40, time  0.00, new symfile
+LongMath            no errors, no warnings, lines   51, time  0.00, new symfile
+SIOResult           no errors, no warnings, lines   25, time  0.00, new symfile
+STextIO             no errors, no warnings, lines   54, time  0.00, new symfile
+Storage             no errors, no warnings, lines   37, time  0.00, new symfile
+StreamFile          no errors, no warnings, lines   42, time  0.00, new symfile
+SRealIO             no errors, no warnings, lines   45, time  0.00, new symfile
+Strings             no errors, no warnings, lines  143, time  0.00, new symfile
+SWholeIO            no errors, no warnings, lines   38, time  0.00, new symfile
+SysClock            no errors, no warnings, lines   44, time  0.00, new symfile
+TextIO              no errors, no warnings, lines   54, time  0.00, new symfile
+WholeConv           no errors, no warnings, lines   53, time  0.00, new symfile
+WholeIO             no errors, no warnings, lines   34, time  0.00, new symfile
+WholeStr            no errors, no warnings, lines   37, time  0.00, new symfile
+RndFile             no errors, no warnings, lines   96, time  0.00, new symfile
+SeqFile             no errors, no warnings, lines   83, time  0.00, new symfile
+SLongIO             no errors, no warnings, lines   45, time  0.00, new symfile
+SRawIO              no errors, no warnings, lines   19, time  0.01, new symfile
+StdChans            no errors, no warnings, lines   68, time  0.00, new symfile
+TermFile            no errors, no warnings, lines   47, time  0.00, new symfile
+IOLink              no errors, no warnings, lines  115, time  0.00, new symfile
+LongConv            no errors, no warnings, lines   48, time  0.00, new symfile
+LongIO              no errors, no warnings, lines   45, time  0.00, new symfile
+LongStr             no errors, no warnings, lines   48, time  0.00, new symfile
+RealConv            no errors, no warnings, lines   48, time  0.00, new symfile
+RawIO               no errors, no warnings, lines   17, time  0.00, new symfile
+GeneralUserExceptio no errors, no warnings, lines   23, time  0.00, new symfile
+XRaise              no errors, no warnings, lines   16, time  0.00, new symfile
+ComplexMath         no errors, no warnings, lines   61, time  0.00, new symfile
+LongComplexMath     no errors, no warnings, lines   61, time  0.00, new symfile
+xFilePos            no errors, no warnings, lines   16, time  0.00, new symfile
+XEXCEPTIONS         no errors, no warnings, lines   36, time  0.00, new symfile
+InOut               no errors, no warnings, lines   28, time  0.00, new symfile
+MathLib0            no errors, no warnings, lines   18, time  0.00, new symfile
+RealInOut           no errors, no warnings, lines   10, time  0.00, new symfile
+LongInOut           no errors, no warnings, lines    9, time  0.00, new symfile
+xMath               no errors, no warnings, lines   72, time  0.00, new symfile
+MathR               no errors, no warnings, lines  154, time  0.00, new symfile, (new def)
+In                  no errors, no warnings, lines  355, time  0.00, new symfile, (new def)
+Out                 no errors, no warnings, lines  115, time  0.00, new symfile, (new def)
+O2Strings           no errors, no warnings, lines  124, time  0.00, new symfile, (new def)
+MathL               no errors, no warnings, lines  152, time  0.01, new symfile, (new def)
+MathC               no errors, no warnings, lines  228, time  0.00, new symfile, (new def)
+MathCL              no errors, no warnings, lines  224, time  0.00, new symfile, (new def)
+oberonRTS           no errors, no warnings, lines  129, time  0.00, new symfile
+Printf              no errors, no warnings, lines   15, time  0.00, new symfile
+FormOut             no errors, no warnings, lines   33, time  0.00, new symfile
+TimeConv            no errors, no warnings, lines   98, time  0.00, new symfile
+ProgEnv             no errors, no warnings, lines   29, time  0.00, new symfile
+ProgExec            no errors, no warnings, lines   27, time  0.00, new symfile
+XDSRTL              no errors, no warnings, lines   46, time  0.00, new symfile
+LocalHeap           no errors, no warnings, lines   22, time  0.00, new symfile
+FormStr             no errors, no warnings, lines   69, time  0.00, new symfile
+FileSys             no errors, no warnings, lines   58, time  0.00, new symfile
+FileName            no errors, no warnings, lines   64, time  0.00, new symfile
+DStrings            no errors, no warnings, lines   34, time  0.00, new symfile, (new def)
+RegComp             no errors, no warnings, lines  466, time  0.01, new symfile, (new def)
+platform            no errors, no warnings, lines   78, time  0.00, new symfile
+FilePath            no errors, no warnings, lines  113, time  0.00, new symfile, (new def)
+xrsetjmp            no errors, no warnings, lines   26, time  0.00, new symfile
+xmRTS               no errors, no warnings, lines  647, time  0.00, new symfile
+xrMM                no errors, no warnings, lines  276, time  0.00, new symfile
+xrM2MM              no errors, no warnings, lines   24, time  0.00, new symfile
+xrO2MM              no errors, no warnings, lines   48, time  0.01, new symfile
+xrExponents         no errors, no warnings, lines   17, time  0.00, new symfile
+xrExceptions        no errors, no warnings, lines   44, time  0.00, new symfile
+xrAReal             no errors, no warnings, lines   22, time  0.00, new symfile
+xrStrings           no errors, no warnings, lines   21, time  0.00, new symfile
+xrLSETs             no errors, no warnings, lines   33, time  0.01, new symfile
+xrSETs              no errors, no warnings, lines   20, time  0.00, new symfile
+xrHistory           no errors, no warnings, lines   24, time  0.00, new symfile
+xrThreads           no errors, no warnings, lines   79, time  0.00, new symfile
+xrInt64             no errors, no warnings, lines   30, time  0.00, new symfile
+xlibOS              no errors, no warnings, lines  178, time  0.00, new symfile
+xrtsOS              no errors, no warnings, lines   87, time  0.00, new symfile
+xosEnv              no errors, no warnings, lines   12, time  0.00, new symfile
+xosExit             no errors, no warnings, lines   15, time  0.00, new symfile
+xosFileIO           no errors, no warnings, lines   22, time  0.00, new symfile
+xosFmtIO            no errors, no warnings, lines   14, time  0.00, new symfile
+xosFmtNL            no errors, no warnings, lines    7, time  0.00, new symfile
+xosFS               no errors, no warnings, lines   41, time  0.00, new symfile
+xosMalloc           no errors, no warnings, lines   22, time  0.00, new symfile
+xosMem              no errors, no warnings, lines   16, time  0.01, new symfile
+xosIpts             no errors, no warnings, lines   12, time  0.00, new symfile
+xosTime             no errors, no warnings, lines   18, time  0.00, new symfile
+xosFiles            no errors, no warnings, lines   59, time  0.00, new symfile
+xosExec             no errors, no warnings, lines   12, time  0.00, new symfile
+xosTTY              no errors, no warnings, lines   18, time  0.00, new symfile
+xosTimeOps          no errors, no warnings, lines   16, time  0.00, new symfile
+xosDirs             no errors, no warnings, lines   19, time  0.00, new symfile
+xrTCov              no errors, no warnings, lines  217, time  0.00, new symfile
+X2C                 no errors, no warnings, lines   50, time  0.00, new symfile
+xPOSIX              no errors, no warnings, lines  328, time  0.00, new symfile
+x2cLib              no errors, no warnings, lines   36, time  0.00, new symfile
+xrcO2MM             no errors, no warnings, lines   14, time  0.01, new symfile
+xrcRTS              no errors, no warnings, lines   16, time  0.00, new symfile
+xrcChecks           no errors, no warnings, lines   30, time  0.00, new symfile
+xrcACMPLX           no errors, no warnings, lines   27, time  0.00, new symfile
+xrcIncDec           no errors, no warnings, lines   27, time  0.00, new symfile
+xrcArythmetics      no errors, no warnings, lines   22, time  0.00, new symfile
+xrStrCmp            no errors, no warnings, lines   15, time  0.00, new symfile
+XIOChan             no errors, no warnings, lines   16, time  0.00, new symfile
+xDevData            no errors, no warnings, lines   98, time  0.01, new symfile
+POSIXIOChan         no errors, no warnings, lines   52, time  0.00, new symfile
+xrBlockManager      no errors, no warnings, lines   34, time  0.00, new symfile
+xrFName             no errors, no warnings, lines   36, time  0.00, new symfile
+xrDTree             no errors, no warnings, lines   55, time  0.00, new symfile
+xtcsOS              no errors, no warnings, lines  112, time  0.00, new symfile
+xosBalls            no errors, no warnings, lines   22, time  0.01, new symfile
+xrnMman             no errors, no warnings, lines   48, time  0.00, new symfile
+EXCEPTIONS          no errors, no warnings, lines   92, time  0.00
+M2EXCEPTION         no errors, no warnings, lines   44, time  0.00
+COROUTINES          no errors, no warnings, lines   80, time  0.00
+TERMINATION         no errors, no warnings, lines  198, time  0.00
+LowReal             no errors, no warnings, lines  132, time  0.00
+LowLong             no errors, no warnings, lines  136, time  0.00
+ChanConsts          no errors, no warnings, lines    3, time  0.00
+CharClass           no errors, no warnings, lines   65, time  0.00
+ConvTypes           no errors, no warnings, lines    3, time  0.00
+IOConsts            no errors, no warnings, lines    3, time  0.00
+IOChan              no errors, no warnings, lines  106, time  0.00
+IOResult            no errors, no warnings, lines   11, time  0.00
+ProgramArgs         no errors, no warnings, lines  163, time  0.00
+Processes           no errors, no warnings, lines  585, time  0.00
+Semaphores          no errors, no warnings, lines  221, time  0.01
+XPrs                no errors, no warnings, lines    4, time  0.00
+RealIO              no errors, no warnings, lines  150, time  0.00
+RealMath            no errors, no warnings, lines  113, time  0.00
+RealStr             no errors, no warnings, lines  216, time  0.01
+XReal               no errors, no warnings, lines  338, time  0.00
+LongMath            no errors, no warnings, lines  112, time  0.00
+SIOResult           no errors, no warnings, lines   11, time  0.00
+STextIO             no errors, no warnings, lines   47, time  0.00
+Storage             no errors, no warnings, lines   58, time  0.00
+StreamFile          no errors, no warnings, lines   89, time  0.01
+SRealIO             no errors, no warnings, lines   34, time  0.00
+Strings             no errors, no warnings, lines  220, time  0.00
+SWholeIO            no errors, no warnings, lines   26, time  0.00
+SysClock            no errors, no warnings, lines   76, time  0.00
+TextIO              no errors, no warnings, lines   95, time  0.01
+WholeConv           no errors, no warnings, lines  145, time  0.00
+WholeIO             no errors, no warnings, lines  121, time  0.00
+WholeStr            no errors, no warnings, lines   99, time  0.00
+RndFile             no errors, no warnings, lines  219, time  0.00
+SeqFile             no errors, no warnings, lines  222, time  0.01
+SLongIO             no errors, no warnings, lines   34, time  0.00
+SRawIO              no errors, no warnings, lines   16, time  0.00
+StdChans            no errors, no warnings, lines  185, time  0.00
+TermFile            no errors, no warnings, lines  369, time  0.00
+IOLink              no errors, no warnings, lines  185, time  0.00
+LongConv            no errors, no warnings, lines  156, time  0.00
+LongIO              no errors, no warnings, lines  150, time  0.00
+LongStr             no errors, no warnings, lines  486, time  0.00
+RealConv            no errors, no warnings, lines  156, time  0.00
+RawIO               no errors, no warnings, lines   20, time  0.00
+GeneralUserExceptio no errors, no warnings, lines   37, time  0.00
+XRaise              no errors, no warnings, lines   22, time  0.00
+ComplexMath         no errors, no warnings, lines  167, time  0.00
+LongComplexMath     no errors, no warnings, lines  167, time  0.00
+xFilePos            no errors, no warnings, lines   41, time  0.00
+XEXCEPTIONS         no errors, no warnings, lines   64, time  0.00
+InOut               no errors, no warnings, lines  182, time  0.00
+MathLib0            no errors, no warnings, lines   41, time  0.00
+RealInOut           no errors, no warnings, lines   24, time  0.00
+LongInOut           no errors, no warnings, lines   24, time  0.00
+oberonRTS           no errors, no warnings, lines  244, time  0.00
+Printf              no errors, no warnings, lines   52, time  0.01
+FormOut             no errors, no warnings, lines  558, time  0.00
+TimeConv            no errors, no warnings, lines  283, time  0.00
+ProgEnv             no errors, no warnings, lines  103, time  0.00
+ProgExec            no errors, no warnings, lines   59, time  0.00
+XDSRTL              no errors, no warnings, lines   23, time  0.00
+LocalHeap           no errors, no warnings, lines  417, time  0.00
+FormStr             no errors, no warnings, lines  167, time  0.00
+FileSys             no errors, no warnings, lines  204, time  0.01
+FileName            no errors, no warnings, lines  139, time  0.00
+xmRTS               no errors, no warnings, lines   44, time  0.00
+xrMM                no errors, no warnings, lines 1185, time  0.00
+xrM2MM              no errors, no warnings, lines  194, time  0.01
+xrO2MM              no errors, no warnings, lines 2596, time  0.00
+xrExponents         no errors, no warnings, lines   81, time  0.00
+xrExceptions        no errors, no warnings, lines  448, time  0.00
+xrAReal             no errors, no warnings, lines   70, time  0.00
+xrStrings           no errors, no warnings, lines   60, time  0.00
+xrLSETs             no errors, no warnings, lines  152, time  0.01
+xrSETs              no errors, no warnings, lines   86, time  0.00
+xrHistory           no errors, no warnings, lines  301, time  0.00
+xrThreads           no errors, no warnings, lines  389, time  0.00
+xrInt64             no errors, no warnings, lines  158, time  0.00
+xosEnv              no errors, no warnings, lines   46, time  0.00
+xosFileIO           no errors, no warnings, lines   84, time  0.00
+xosFmtIO            no errors, no warnings, lines   88, time  0.00
+xosFmtNL            no errors, no warnings, lines   13, time  0.00
+xosMalloc           no errors, no warnings, lines   49, time  0.00
+xosMem              no errors, no warnings, lines   22, time  0.00
+xosIpts             no errors, no warnings, lines   26, time  0.00
+xosFiles            no errors, no warnings, lines  256, time  0.01
+xosExec             no errors, no warnings, lines   90, time  0.00
+xosTimeOps          no errors, no warnings, lines  223, time  0.00
+xrTCov              no errors, no warnings, lines 1150, time  0.01
+xrcO2MM             no errors, no warnings, lines   95, time  0.00
+xrcRTS              no errors, no warnings, lines   64, time  0.00
+xrcChecks           no errors, no warnings, lines   85, time  0.00
+xrcACMPLX           no errors, no warnings, lines   90, time  0.00
+xrcIncDec           no errors, no warnings, lines  154, time  0.00
+xrcArythmetics      no errors, no warnings, lines  113, time  0.00
+xrStrCmp            no errors, no warnings, lines   42, time  0.00
+XIOChan             no errors, no warnings, lines   25, time  0.00
+xDevData            no errors, no warnings, lines  944, time  0.01
+POSIXIOChan         no errors, no warnings, lines   52, time  0.00
+xrBlockManager      no errors, no warnings, lines   45, time  0.00
+xrFName             no errors, no warnings, lines  115, time  0.01
+xrDTree             no errors, no warnings, lines  146, time  0.00
+xosBalls            no errors, no warnings, lines   75, time  0.00
+New "enduser/xds/lib/C/lib.mkf" is generated using template "src/m/xds.tem"
+-------------------------------------------------------------------
+files: 233  errors: 0(0)  lines 27318  time: 0:00  speed 8195400 l/m
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/COROUTINES.o enduser/xds/C/C/COROUTINES.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ChanConsts.o enduser/xds/C/C/ChanConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/CharClass.o enduser/xds/C/C/CharClass.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ComplexMath.o enduser/xds/C/C/ComplexMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ConvTypes.o enduser/xds/C/C/ConvTypes.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/DStrings.o enduser/xds/C/C/DStrings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/EXCEPTIONS.o enduser/xds/C/C/EXCEPTIONS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/FileName.o enduser/xds/C/C/FileName.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/FilePath.o enduser/xds/C/C/FilePath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/FileSys.o enduser/xds/C/C/FileSys.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/FormOut.o enduser/xds/C/C/FormOut.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/FormStr.o enduser/xds/C/C/FormStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/GeneralUserExceptions.o enduser/xds/C/C/GeneralUserExceptions.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/IOChan.o enduser/xds/C/C/IOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/IOConsts.o enduser/xds/C/C/IOConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/IOLink.o enduser/xds/C/C/IOLink.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/IOResult.o enduser/xds/C/C/IOResult.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/In.o enduser/xds/C/C/In.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/InOut.o enduser/xds/C/C/InOut.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LocalHeap.o enduser/xds/C/C/LocalHeap.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LongComplexMath.o enduser/xds/C/C/LongComplexMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LongConv.o enduser/xds/C/C/LongConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LongIO.o enduser/xds/C/C/LongIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LongInOut.o enduser/xds/C/C/LongInOut.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LongMath.o enduser/xds/C/C/LongMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LongStr.o enduser/xds/C/C/LongStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LowLong.o enduser/xds/C/C/LowLong.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LowReal.o enduser/xds/C/C/LowReal.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/M2EXCEPTION.o enduser/xds/C/C/M2EXCEPTION.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/MathC.o enduser/xds/C/C/MathC.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/MathCL.o enduser/xds/C/C/MathCL.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/MathL.o enduser/xds/C/C/MathL.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/MathLib0.o enduser/xds/C/C/MathLib0.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/MathR.o enduser/xds/C/C/MathR.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/O2Strings.o enduser/xds/C/C/O2Strings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Out.o enduser/xds/C/C/Out.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/POSIXIOChan.o enduser/xds/C/C/POSIXIOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Printf.o enduser/xds/C/C/Printf.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Processes.o enduser/xds/C/C/Processes.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ProgEnv.o enduser/xds/C/C/ProgEnv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ProgExec.o enduser/xds/C/C/ProgExec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ProgramArgs.o enduser/xds/C/C/ProgramArgs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/RawIO.o enduser/xds/C/C/RawIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/RealConv.o enduser/xds/C/C/RealConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/RealIO.o enduser/xds/C/C/RealIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/RealInOut.o enduser/xds/C/C/RealInOut.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/RealMath.o enduser/xds/C/C/RealMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/RealStr.o enduser/xds/C/C/RealStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/RegComp.o enduser/xds/C/C/RegComp.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/RndFile.o enduser/xds/C/C/RndFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SIOResult.o enduser/xds/C/C/SIOResult.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SLongIO.o enduser/xds/C/C/SLongIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SRawIO.o enduser/xds/C/C/SRawIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SRealIO.o enduser/xds/C/C/SRealIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/STextIO.o enduser/xds/C/C/STextIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SWholeIO.o enduser/xds/C/C/SWholeIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Semaphores.o enduser/xds/C/C/Semaphores.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SeqFile.o enduser/xds/C/C/SeqFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/StdChans.o enduser/xds/C/C/StdChans.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Storage.o enduser/xds/C/C/Storage.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/StreamFile.o enduser/xds/C/C/StreamFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Strings.o enduser/xds/C/C/Strings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SysClock.o enduser/xds/C/C/SysClock.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/TERMINATION.o enduser/xds/C/C/TERMINATION.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/TermFile.o enduser/xds/C/C/TermFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/TextIO.o enduser/xds/C/C/TextIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/TimeConv.o enduser/xds/C/C/TimeConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/WholeConv.o enduser/xds/C/C/WholeConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/WholeIO.o enduser/xds/C/C/WholeIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/WholeStr.o enduser/xds/C/C/WholeStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/X2C.o enduser/xds/C/C/X2C.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/XDSRTL.o enduser/xds/C/C/XDSRTL.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/XEXCEPTIONS.o enduser/xds/C/C/XEXCEPTIONS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/XIOChan.o enduser/xds/C/C/XIOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/XPrs.o enduser/xds/C/C/XPrs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/XRaise.o enduser/xds/C/C/XRaise.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/XReal.o enduser/xds/C/C/XReal.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/oberonRTS.o enduser/xds/C/C/oberonRTS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/platform.o enduser/xds/C/C/platform.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/x2cLib.o enduser/xds/C/C/x2cLib.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xDevData.o enduser/xds/C/C/xDevData.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xFilePos.o enduser/xds/C/C/xFilePos.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xMathAds.o enduser/xds/C/C/xMathAds.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xmRTS.o enduser/xds/C/C/xmRTS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosBalls.o enduser/xds/C/C/xosBalls.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosDirs.o enduser/xds/C/C/xosDirs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosEnv.o enduser/xds/C/C/xosEnv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosExec.o enduser/xds/C/C/xosExec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosExit.o enduser/xds/C/C/xosExit.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosFS.o enduser/xds/C/C/xosFS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosFileIO.o enduser/xds/C/C/xosFileIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosFiles.o enduser/xds/C/C/xosFiles.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosFmtIO.o enduser/xds/C/C/xosFmtIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosFmtNL.o enduser/xds/C/C/xosFmtNL.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosIpts.o enduser/xds/C/C/xosIpts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosMalloc.o enduser/xds/C/C/xosMalloc.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosMem.o enduser/xds/C/C/xosMem.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosTTY.o enduser/xds/C/C/xosTTY.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosTime.o enduser/xds/C/C/xosTime.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xosTimeOps.o enduser/xds/C/C/xosTimeOps.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrAReal.o enduser/xds/C/C/xrAReal.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrBlockManager.o enduser/xds/C/C/xrBlockManager.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrDTree.o enduser/xds/C/C/xrDTree.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrExceptions.o enduser/xds/C/C/xrExceptions.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrExponents.o enduser/xds/C/C/xrExponents.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrFName.o enduser/xds/C/C/xrFName.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrHistory.o enduser/xds/C/C/xrHistory.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrInt64.o enduser/xds/C/C/xrInt64.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrLSETs.o enduser/xds/C/C/xrLSETs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrM2MM.o enduser/xds/C/C/xrM2MM.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrMM.o enduser/xds/C/C/xrMM.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrO2MM.o enduser/xds/C/C/xrO2MM.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrSETs.o enduser/xds/C/C/xrSETs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrStrCmp.o enduser/xds/C/C/xrStrCmp.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrStrings.o enduser/xds/C/C/xrStrings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrTCov.o enduser/xds/C/C/xrTCov.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrThreads.o enduser/xds/C/C/xrThreads.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrcACMPLX.o enduser/xds/C/C/xrcACMPLX.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrcArythmetics.o enduser/xds/C/C/xrcArythmetics.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrcChecks.o enduser/xds/C/C/xrcChecks.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrcCrtnStart.o enduser/xds/C/C/xrcCrtnStart.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrcIncDec.o enduser/xds/C/C/xrcIncDec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrcO2MM.o enduser/xds/C/C/xrcO2MM.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrcRTS.o enduser/xds/C/C/xrcRTS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -DX2C_native_setjump -m32 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xrcStart.o enduser/xds/C/C/xrcStart.c
+as --32 -o enduser/tmp/xrsetjmp.o src/xr/C-Native/x86Linux/xrsetjmp.s
+rm -f enduser/xds/lib/C/libxds.a
+ar q enduser/xds/lib/C/libxds.a enduser/tmp/COROUTINES.o enduser/tmp/ChanConsts.o enduser/tmp/CharClass.o enduser/tmp/ComplexMath.o enduser/tmp/ConvTypes.o enduser/tmp/DStrings.o enduser/tmp/EXCEPTIONS.o enduser/tmp/FileName.o enduser/tmp/FilePath.o enduser/tmp/FileSys.o enduser/tmp/FormOut.o enduser/tmp/FormStr.o enduser/tmp/GeneralUserExceptions.o enduser/tmp/IOChan.o enduser/tmp/IOConsts.o enduser/tmp/IOLink.o enduser/tmp/IOResult.o enduser/tmp/In.o enduser/tmp/InOut.o enduser/tmp/LocalHeap.o enduser/tmp/LongComplexMath.o enduser/tmp/LongConv.o enduser/tmp/LongIO.o enduser/tmp/LongInOut.o enduser/tmp/LongMath.o enduser/tmp/LongStr.o enduser/tmp/LowLong.o enduser/tmp/LowReal.o enduser/tmp/M2EXCEPTION.o enduser/tmp/MathC.o enduser/tmp/MathCL.o enduser/tmp/MathL.o enduser/tmp/MathLib0.o enduser/tmp/MathR.o enduser/tmp/O2Strings.o enduser/tmp/Out.o enduser/tmp/POSIXIOChan.o enduser/tmp/Printf.o enduser/tmp/Processes.o enduser/tmp/ProgEnv.o enduser/tmp/ProgExec.o enduser/tmp/ProgramArgs.o enduser/tmp/RawIO.o enduser/tmp/RealConv.o enduser/tmp/RealIO.o enduser/tmp/RealInOut.o enduser/tmp/RealMath.o enduser/tmp/RealStr.o enduser/tmp/RegComp.o enduser/tmp/RndFile.o enduser/tmp/SIOResult.o enduser/tmp/SLongIO.o enduser/tmp/SRawIO.o enduser/tmp/SRealIO.o enduser/tmp/STextIO.o enduser/tmp/SWholeIO.o enduser/tmp/Semaphores.o enduser/tmp/SeqFile.o enduser/tmp/StdChans.o enduser/tmp/Storage.o enduser/tmp/StreamFile.o enduser/tmp/Strings.o enduser/tmp/SysClock.o enduser/tmp/TERMINATION.o enduser/tmp/TermFile.o enduser/tmp/TextIO.o enduser/tmp/TimeConv.o enduser/tmp/WholeConv.o enduser/tmp/WholeIO.o enduser/tmp/WholeStr.o enduser/tmp/X2C.o enduser/tmp/XDSRTL.o enduser/tmp/XEXCEPTIONS.o enduser/tmp/XIOChan.o enduser/tmp/XPrs.o enduser/tmp/XRaise.o enduser/tmp/XReal.o enduser/tmp/oberonRTS.o enduser/tmp/platform.o enduser/tmp/x2cLib.o enduser/tmp/xDevData.o enduser/tmp/xFilePos.o enduser/tmp/xMathAds.o enduser/tmp/xmRTS.o enduser/tmp/xosBalls.o enduser/tmp/xosDirs.o enduser/tmp/xosEnv.o enduser/tmp/xosExec.o enduser/tmp/xosExit.o enduser/tmp/xosFS.o enduser/tmp/xosFileIO.o enduser/tmp/xosFiles.o enduser/tmp/xosFmtIO.o enduser/tmp/xosFmtNL.o enduser/tmp/xosIpts.o enduser/tmp/xosMalloc.o enduser/tmp/xosMem.o enduser/tmp/xosTTY.o enduser/tmp/xosTime.o enduser/tmp/xosTimeOps.o enduser/tmp/xrAReal.o enduser/tmp/xrBlockManager.o enduser/tmp/xrDTree.o enduser/tmp/xrExceptions.o enduser/tmp/xrExponents.o enduser/tmp/xrFName.o enduser/tmp/xrHistory.o enduser/tmp/xrInt64.o enduser/tmp/xrLSETs.o enduser/tmp/xrM2MM.o enduser/tmp/xrMM.o enduser/tmp/xrO2MM.o enduser/tmp/xrSETs.o enduser/tmp/xrStrCmp.o enduser/tmp/xrStrings.o enduser/tmp/xrTCov.o enduser/tmp/xrThreads.o enduser/tmp/xrcACMPLX.o enduser/tmp/xrcArythmetics.o enduser/tmp/xrcChecks.o enduser/tmp/xrcCrtnStart.o enduser/tmp/xrcIncDec.o enduser/tmp/xrcO2MM.o enduser/tmp/xrcRTS.o enduser/tmp/xrcStart.o enduser/tmp/xrsetjmp.o
+ranlib enduser/xds/lib/C/libxds.a
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux/enduser/xds/lib/C
+
+xm =g ../../../../src/m/lib -mode:=user -native_library:-
+
+O2/M2 development system v2.60 TS  (c) 1991-2011 Excelsior, LLC. (build 10.09.2020)
+Generate makefile for project "../../../../src/m/lib"
+New "lib.mkf" is generated using template "../../../../src/m/xds.tem"
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xm =p src/TSlibs/tslib -mode:=nodebug -decor=rt -woff+ -xdsdir=enduser/xds
+
+Make project "src/TSlibs/tslib"
+#file "src/TSlibs/tslib.prj" (line 142): undeclared equation "INCLUDE"
+BiosIO              no errors, no warnings, lines   26, time  0.00, new symfile
+Str                 no errors, no warnings, lines   95, time  0.00, new symfile
+FIO                 no errors, no warnings, lines  188, time  0.00, new symfile
+FIOR                no errors, no warnings, lines   16, time  0.00, new symfile
+Lib                 no errors, no warnings, lines   84, time  0.00, new symfile
+MATHLIB             no errors, no warnings, lines   72, time  0.01, new symfile
+ShtHeap             no errors, no warnings, lines   35, time  0.00, new symfile
+SysErr              no errors, no warnings, lines   24, time  0.00, new symfile
+IO                  no errors, no warnings, lines  123, time  0.00, new symfile
+xtsFIO              no errors, no warnings, lines   37, time  0.00, new symfile
+xtsLib              no errors, no warnings, lines   16, time  0.00, new symfile
+xtsIO               no errors, no warnings, lines   12, time  0.00, new symfile
+Str                 no errors, no warnings, lines  537, time  0.00
+FIO                 no errors, no warnings, lines 1073, time  0.01
+FIOR                no errors, no warnings, lines  151, time  0.00
+Lib                 no errors, no warnings, lines  612, time  0.00
+MATHLIB             no errors, no warnings, lines  137, time  0.00
+ShtHeap             no errors, no warnings, lines  418, time  0.00
+IO                  no errors, no warnings, lines  635, time  0.00
+New "enduser/xds/lib/C/tslib.mkf" is generated using template "src/TSlibs/xds.tem"
+-------------------------------------------------------------------
+files: 19  errors: 0(0)  lines 4291  time: 0:00  speed 10000 l/m
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/BiosIO.o enduser/xds/C/C/BiosIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ChanConsts.o enduser/xds/C/C/ChanConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ConvTypes.o enduser/xds/C/C/ConvTypes.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/EXCEPTIONS.o enduser/xds/C/C/EXCEPTIONS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/FIO.o enduser/xds/C/C/FIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/FIOR.o enduser/xds/C/C/FIOR.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/FileName.o enduser/xds/C/C/FileName.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/FileSys.o enduser/xds/C/C/FileSys.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/IO.o enduser/xds/C/C/IO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/IOChan.o enduser/xds/C/C/IOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/IOConsts.o enduser/xds/C/C/IOConsts.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Lib.o enduser/xds/C/C/Lib.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LongConv.o enduser/xds/C/C/LongConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LongMath.o enduser/xds/C/C/LongMath.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/LongStr.o enduser/xds/C/C/LongStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/MATHLIB.o enduser/xds/C/C/MATHLIB.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ProgEnv.o enduser/xds/C/C/ProgEnv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ProgExec.o enduser/xds/C/C/ProgExec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/RndFile.o enduser/xds/C/C/RndFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SeqFile.o enduser/xds/C/C/SeqFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ShtHeap.o enduser/xds/C/C/ShtHeap.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/StdChans.o enduser/xds/C/C/StdChans.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Storage.o enduser/xds/C/C/Storage.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Str.o enduser/xds/C/C/Str.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Strings.o enduser/xds/C/C/Strings.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SysClock.o enduser/xds/C/C/SysClock.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/SysErr.o enduser/xds/C/C/SysErr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/TextIO.o enduser/xds/C/C/TextIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/TimeConv.o enduser/xds/C/C/TimeConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/WholeStr.o enduser/xds/C/C/WholeStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/XIOChan.o enduser/xds/C/C/XIOChan.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/platform.o enduser/xds/C/C/platform.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xFilePos.o enduser/xds/C/C/xFilePos.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xtsFIO.o enduser/xds/C/C/xtsFIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xtsIO.o enduser/xds/C/C/xtsIO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -fno-strength-reduce -Isrc/TSlibs/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xtsLib.o enduser/xds/C/C/xtsLib.c
+rm -f enduser/xds/lib/C/libts.a
+ar q enduser/xds/lib/C/libts.a enduser/tmp/BiosIO.o enduser/tmp/ChanConsts.o enduser/tmp/ConvTypes.o enduser/tmp/EXCEPTIONS.o enduser/tmp/FIO.o enduser/tmp/FIOR.o enduser/tmp/FileName.o enduser/tmp/FileSys.o enduser/tmp/IO.o enduser/tmp/IOChan.o enduser/tmp/IOConsts.o enduser/tmp/Lib.o enduser/tmp/LongConv.o enduser/tmp/LongMath.o enduser/tmp/LongStr.o enduser/tmp/MATHLIB.o enduser/tmp/ProgEnv.o enduser/tmp/ProgExec.o enduser/tmp/RndFile.o enduser/tmp/SeqFile.o enduser/tmp/ShtHeap.o enduser/tmp/StdChans.o enduser/tmp/Storage.o enduser/tmp/Str.o enduser/tmp/Strings.o enduser/tmp/SysClock.o enduser/tmp/SysErr.o enduser/tmp/TextIO.o enduser/tmp/TimeConv.o enduser/tmp/WholeStr.o enduser/tmp/XIOChan.o enduser/tmp/platform.o enduser/tmp/xFilePos.o enduser/tmp/xtsFIO.o enduser/tmp/xtsIO.o enduser/tmp/xtsLib.o
+ranlib enduser/xds/lib/C/libts.a
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+make -f enduser/xds/lib/C/tslib.mkf
+
+make: 'enduser/xds/lib/C/libts.a' is up to date.
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux/enduser/xds/lib/C
+
+xm =g ../../../../src/TSlibs/tslib -mode:=user -decor=rt -woff+
+
+Generate makefile for project "../../../../src/TSlibs/tslib"
+New "tslib.mkf" is generated using template "../../../../src/TSlibs/xds.tem"
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xm =p src/m/xm -mode:=enduser -ts_compatible:+ -decor=rt -woff+ -xdsdir=enduser/xds -env_target=linux -usestaticclibs:+
+
+Make project "src/m/xm"
+xiEnv               no errors, no warnings, lines  722, time  0.00, new symfile
+xiFiles             no errors, no warnings, lines  847, time  0.01, new symfile
+xcStr               no errors, no warnings, lines  166, time  0.00, new symfile
+pcK                 no errors, no warnings, lines 2569, time  0.00, new symfile
+xmConfig            no errors, no warnings, lines  770, time  0.00, new symfile
+xmPlatform          no errors, no warnings, lines  237, time  0.02, new symfile
+PFNConv             no errors, no warnings, lines  100, time  0.00, new symfile
+xmFS                no errors, no warnings, lines  555, time  0.00, new symfile
+QFile               no errors, no warnings, lines   74, time  0.00, new symfile
+Dirs                no errors, no warnings, lines   69, time  0.00, new symfile
+xmISOFM             no errors, no warnings, lines  461, time  0.01, new symfile
+xmArgs              no errors, no warnings, lines  102, time  0.00, new symfile
+xmErrors            no errors, no warnings, lines  672, time  0.00, new symfile
+ccK                 no errors, no warnings, lines  142, time  0.01, new symfile
+ccL                 no errors, no warnings, lines  459, time  0.00, new symfile
+ccSeg               no errors, no warnings, lines  174, time  0.01, new symfile
+ccN                 no errors, no warnings, lines  994, time  0.00, new symfile
+ccComments          no errors, no warnings, lines  296, time  0.00, new symfile
+ccRec               no errors, no warnings, lines  477, time  0.01, new symfile
+pcS                 no errors, no warnings, lines 1553, time  0.01, new symfile
+pcO                 no errors, no warnings, lines 2820, time  0.01, new symfile
+ccDcl               no errors, no warnings, lines 1997, time  0.02, new symfile
+ccE                 no errors, no warnings, lines 2575, time  0.02, new symfile
+ccDef               no errors, no warnings, lines 1212, time  0.01, new symfile
+ccCode              no errors, no warnings, lines 1473, time  0.02, new symfile
+pcB                 no errors, no warnings, lines 2270, time  0.01, new symfile
+pcF                 no errors, no warnings, lines 1157, time  0.01, new symfile
+xcBrowse            no errors, no warnings, lines 1232, time  0.00, new symfile
+pcM2                no errors, no warnings, lines 4600, time  0.02, new symfile
+pcNum               no errors, no warnings, lines 1766, time  0.01, new symfile
+pcConst             no errors, no warnings, lines 5635, time  0.02, new symfile
+xcMake              no errors, no warnings, lines 1079, time  0.01, new symfile
+xcMain              no errors, no warnings, lines 1151, time  0.01, new symfile
+xcF                 no errors, no warnings, lines  734, time  0.01, new symfile
+xm                  no errors, no warnings, lines  627, time  0.02, new symfile
+PFNConv             no errors, no warnings, lines  429, time  0.00
+QFile               no errors, no warnings, lines  198, time  0.00
+New "enduser/tmp/xm.mkf" is generated using template "src/m/xds.tem"
+-------------------------------------------------------------------
+files: 37  errors: 0(0)  lines 42394  time: 0:00  speed 12718200 l/m
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/Dirs.o enduser/tmp/Dirs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/PFNConv.o enduser/tmp/PFNConv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/QFile.o enduser/tmp/QFile.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccCode.o enduser/tmp/ccCode.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccComments.o enduser/tmp/ccComments.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccDcl.o enduser/tmp/ccDcl.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccDef.o enduser/tmp/ccDef.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccE.o enduser/tmp/ccE.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccK.o enduser/tmp/ccK.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccL.o enduser/tmp/ccL.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccN.o enduser/tmp/ccN.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccRec.o enduser/tmp/ccRec.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/ccSeg.o enduser/tmp/ccSeg.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/pcB.o enduser/tmp/pcB.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/pcConst.o enduser/tmp/pcConst.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/pcF.o enduser/tmp/pcF.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/pcK.o enduser/tmp/pcK.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/pcM2.o enduser/tmp/pcM2.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/pcNum.o enduser/tmp/pcNum.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/pcO.o enduser/tmp/pcO.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/pcS.o enduser/tmp/pcS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xcBrowse.o enduser/tmp/xcBrowse.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xcF.o enduser/tmp/xcF.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xcMain.o enduser/tmp/xcMain.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xcMake.o enduser/tmp/xcMake.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xcStr.o enduser/tmp/xcStr.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xiEnv.o enduser/tmp/xiEnv.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xiFiles.o enduser/tmp/xiFiles.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xm.o enduser/tmp/xm.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xmArgs.o enduser/tmp/xmArgs.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xmConfig.o enduser/tmp/xmConfig.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xmErrors.o enduser/tmp/xmErrors.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xmFS.o enduser/tmp/xmFS.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xmISOFM.o enduser/tmp/xmISOFM.c
+gcc  -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O1 -fno-strength-reduce -Isrc/m/../../enduser/xds/include/C -c -fpack-struct=4 -o enduser/tmp/xmPlatform.o enduser/tmp/xmPlatform.c
+gcc -m32 -static -o enduser/xds/bin/xm  enduser/tmp/Dirs.o enduser/tmp/PFNConv.o enduser/tmp/QFile.o enduser/tmp/ccCode.o enduser/tmp/ccComments.o enduser/tmp/ccDcl.o enduser/tmp/ccDef.o enduser/tmp/ccE.o enduser/tmp/ccK.o enduser/tmp/ccL.o enduser/tmp/ccN.o enduser/tmp/ccRec.o enduser/tmp/ccSeg.o enduser/tmp/pcB.o enduser/tmp/pcConst.o enduser/tmp/pcF.o enduser/tmp/pcK.o enduser/tmp/pcM2.o enduser/tmp/pcNum.o enduser/tmp/pcO.o enduser/tmp/pcS.o enduser/tmp/xcBrowse.o enduser/tmp/xcF.o enduser/tmp/xcMain.o enduser/tmp/xcMake.o enduser/tmp/xcStr.o enduser/tmp/xiEnv.o enduser/tmp/xiFiles.o enduser/tmp/xm.o enduser/tmp/xmArgs.o enduser/tmp/xmConfig.o enduser/tmp/xmErrors.o enduser/tmp/xmFS.o enduser/tmp/xmISOFM.o enduser/tmp/xmPlatform.o enduser/xds/lib/C/libxds.a -lm
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xm =p src/POSIX/posix.prj -sym_place:=enduser/tmp:enduser/xds/sym/C:enduser/sym -decor=rt
+
+Make project "src/POSIX/posix.prj"
+ctype               no errors, no warnings, lines   27, time  0.00, new symfile
+limits              no errors, no warnings, lines  137, time  0.00, new symfile
+
+* [src/POSIX/dirent.def 12.28 W306]
+* import of "limits.NAME_MAX" is never used
+FROM limits IMPORT NAME_MAX$;
+dirent              no errors, warnings  1, lines   47, time  0.01, new symfile
+errno               no errors, no warnings, lines   94, time  0.00, new symfile
+types               no errors, no warnings, lines   37, time  0.00, new symfile
+time                no errors, no warnings, lines   76, time  0.00, new symfile
+stat                no errors, no warnings, lines  114, time  0.00, new symfile
+fcntl               no errors, no warnings, lines  132, time  0.00, new symfile
+float               no errors, no warnings, lines  123, time  0.00, new symfile
+
+* [src/POSIX/grp.def 13.29 W306]
+* import of "limits.ULONG_MAX" is never used
+FROM limits IMPORT ULONG_MAX$;
+grp                 no errors, warnings  1, lines   32, time  0.00, new symfile
+locale              no errors, no warnings, lines   90, time  0.00, new symfile
+
+* [src/POSIX/math.def 11.26 W306]
+* import of "float.DBL_MAX" is never used
+FROM float IMPORT DBL_MAX$;
+math                no errors, warnings  1, lines   44, time  0.00, new symfile
+pwd                 no errors, no warnings, lines   35, time  0.00, new symfile
+setjmp              no errors, no warnings, lines   39, time  0.00, new symfile
+signal              no errors, no warnings, lines  118, time  0.00, new symfile
+stddef              no errors, no warnings, lines   23, time  0.00, new symfile
+
+* [src/POSIX/stdio.def 19.28 W306]
+* import of "xmRTS.X2C_pCHAR" is never used
+FROM xmRTS IMPORT X2C_pCHAR$;
+stdio               no errors, warnings  1, lines  165, time  0.01, new symfile
+
+* [src/POSIX/stdlib.def 14.28 W306]
+* import of "xmRTS.X2C_pVOID" is never used
+FROM xmRTS IMPORT X2C_pVOID$, X2C_pCHAR;
+stdlib              no errors, warnings  1, lines   90, time  0.00, new symfile
+string              no errors, no warnings, lines   45, time  0.00, new symfile
+times               no errors, no warnings, lines   26, time  0.00, new symfile
+unistd              no errors, no warnings, lines  155, time  0.00, new symfile
+utime               no errors, no warnings, lines   22, time  0.00, new symfile
+utsname             no errors, no warnings, lines   24, time  0.00, new symfile
+wait                no errors, no warnings, lines   43, time  0.00, new symfile
+termios             no errors, no warnings, lines  201, time  0.00, new symfile
+-------------------------------------------------------------------
+files: 25  errors: 0(5)  lines 1939  time: 0:00  speed 10000 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xm =p src/X11/X11.prj -sym_place:=enduser/tmp:enduser/xds/sym/C:enduser/sym -decor=rt
+
+Make project "src/X11/X11.prj"
+DECkeysym           no errors, no warnings, lines   43, time  0.00, new symfile
+Sunkeysym           no errors, no warnings, lines   82, time  0.00, new symfile
+X                   no errors, no warnings, lines  621, time  0.01, new symfile
+Xlib                no errors, no warnings, lines 3464, time  0.01, new symfile
+
+* [src/X11/def/X11/Xauth.def 16.17 W306]
+* import of "X" is never used
+IMPORT SYSTEM, X$, stdio;
+Xauth               no errors, warnings  1, lines   97, time  0.01, new symfile
+Xlocale             no errors, no warnings, lines   41, time  0.01, new symfile
+ap_keysym           no errors, no warnings, lines   46, time  0.00, new symfile
+Xutil               no errors, no warnings, lines  673, time  0.00, new symfile
+
+* [src/X11/def/X11/Xresource.def 16.17 W306]
+* import of "X" is never used
+IMPORT SYSTEM, X$, Xlib;
+Xresource           no errors, warnings  1, lines  302, time  0.00, new symfile
+Intrinsic           no errors, no warnings, lines 2399, time  0.01, new symfile
+Vendor              no errors, no warnings, lines   44, time  0.00, new symfile
+Xcms                no errors, no warnings, lines  684, time  0.01, new symfile
+Xmd                 no errors, no warnings, lines   83, time  0.00, new symfile
+cursorfont          no errors, no warnings, lines  103, time  0.00, new symfile
+IntrinsicP          no errors, no warnings, lines 3098, time  0.01, new symfile
+Xdmcp               no errors, no warnings, lines  193, time  0.00, new symfile
+keysym              no errors, no warnings, lines  721, time  0.01, new symfile
+
+* [src/X11/def/X11/Shell.def 21.29 W306]
+* import of "Intrinsic.String" is never used
+FROM Intrinsic IMPORT String$, StringList;
+Shell               no errors, warnings  1, lines  196, time  0.00, new symfile
+X10                 no errors, no warnings, lines  104, time  0.01, new symfile
+keysymdef           no errors, no warnings, lines 1449, time  0.00, new symfile
+
+* [src/X11/def/X11/ICE/ICElib.def 16.20 W306]
+* import of "Xlib" is never used
+IMPORT SYSTEM, Xlib$;
+ICElib              no errors, warnings  1, lines  326, time  0.00, new symfile
+SMlib               no errors, no warnings, lines  452, time  0.00, new symfile
+ShellP              no errors, no warnings, lines  745, time  0.01, new symfile
+Xatom               no errors, no warnings, lines   98, time  0.00, new symfile
+
+* [src/X11/def/X11/xpm.def 16.30 W306]
+* import of "Xutil" is never used
+IMPORT SYSTEM, X, Xlib, Xutil$;
+xpm                 no errors, warnings  1, lines  513, time  0.02, new symfile
+-------------------------------------------------------------------
+files: 25  errors: 0(5)  lines 16577  time: 0:00  speed 9946200 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xm =p src/X11/Xm.prj -sym_place:=enduser/tmp:enduser/xds/sym/C:enduser/sym -decor=rt
+
+Make project "src/X11/Xm.prj"
+ArrowB              no errors, no warnings, lines   67, time  0.00, new symfile
+DrawingA            no errors, no warnings, lines   67, time  0.00, new symfile
+PanedW              no errors, no warnings, lines   73, time  0.01, new symfile
+SeparatoG           no errors, no warnings, lines   73, time  0.01, new symfile
+ArrowBG             no errors, no warnings, lines   68, time  0.00, new symfile
+DrawnB              no errors, no warnings, lines   73, time  0.00, new symfile
+Protocols           no errors, no warnings, lines  138, time  0.01, new symfile
+Separator           no errors, no warnings, lines   67, time  0.01, new symfile
+AtomMgr             no errors, no warnings, lines   42, time  0.00, new symfile
+Xm                  no errors, no warnings, lines 2350, time  0.02, new symfile
+FileSB              no errors, no warnings, lines   88, time  0.01, new symfile
+PushB               no errors, no warnings, lines   73, time  0.01, new symfile
+Text                no errors, no warnings, lines  231, time  0.01, new symfile
+BulletinB           no errors, no warnings, lines   74, time  0.01, new symfile
+Frame               no errors, no warnings, lines   68, time  0.01, new symfile
+PushBG              no errors, no warnings, lines   77, time  0.01, new symfile
+TextF               no errors, no warnings, lines  196, time  0.01, new symfile
+CascadeB            no errors, no warnings, lines   72, time  0.01, new symfile
+Label               no errors, no warnings, lines   71, time  0.00, new symfile
+RepType             no errors, no warnings, lines   88, time  0.01, new symfile
+ToggleB             no errors, no warnings, lines   78, time  0.01, new symfile
+CascadeBG           no errors, no warnings, lines   79, time  0.00, new symfile
+LabelG              no errors, no warnings, lines   78, time  0.00, new symfile
+RowColumn           no errors, no warnings, lines  113, time  0.01, new symfile
+ToggleBG            no errors, no warnings, lines   86, time  0.00, new symfile
+Command             no errors, no warnings, lines   82, time  0.00, new symfile
+List                no errors, no warnings, lines  177, time  0.00, new symfile
+Scale               no errors, no warnings, lines   73, time  0.00, new symfile
+VendorS             no errors, no warnings, lines   65, time  0.01, new symfile
+CutPaste            no errors, no warnings, lines  166, time  0.01, new symfile
+MainW               no errors, no warnings, lines   79, time  0.01, new symfile
+Screen              no errors, no warnings, lines   65, time  0.00, new symfile
+VirtKeys            no errors, no warnings, lines   68, time  0.00, new symfile
+DialogS             no errors, no warnings, lines   65, time  0.01, new symfile
+MenuShell           no errors, no warnings, lines   66, time  0.01, new symfile
+ScrollBar           no errors, no warnings, lines   83, time  0.00, new symfile
+Display             no errors, no warnings, lines   88, time  0.01, new symfile
+MessageB            no errors, no warnings, lines  108, time  0.01, new symfile
+ScrolledW           no errors, no warnings, lines   76, time  0.00, new symfile
+XmStrDefs           no errors, no warnings, lines  915, time  0.01, new symfile
+DragDrop            no errors, no warnings, lines  613, time  0.01, new symfile
+MwmUtil             no errors, no warnings, lines  177, time  0.00, new symfile
+SelectioB           no errors, no warnings, lines   80, time  0.01, new symfile
+Form                no errors, no warnings, lines  128, time  0.00, new symfile
+-------------------------------------------------------------------
+files: 44  errors: 0(0)  lines 7664  time: 0:00  speed 2299200 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+xm =p src/X11/XmP.prj -sym_place:=enduser/tmp:enduser/xds/sym/C:enduser/sym -decor=rt
+
+Make project "src/X11/XmP.prj"
+XmP                 no errors, no warnings, lines 5276, time  0.03, new symfile
+LabelP              no errors, no warnings, lines  206, time  0.01, new symfile
+
+* [src/X11/def/Xm/DrawnBP.def 17.23 W306]
+* import of "Xlib" is never used
+IMPORT SYSTEM, X, Xlib$, Xm:=XmP, Xt:=IntrinsicP, LabelP;
+DrawnBP             no errors, warnings  1, lines  128, time  0.02, new symfile
+PanedWP             no errors, no warnings, lines  185, time  0.02, new symfile
+SeparatoGP          no errors, no warnings, lines  185, time  0.01, new symfile
+ArrowBGP            no errors, no warnings, lines  126, time  0.01, new symfile
+BulletinBP          no errors, no warnings, lines  241, time  0.01, new symfile
+SelectioBP          no errors, no warnings, lines  315, time  0.02, new symfile
+
+* [src/X11/def/Xm/FileSBP.def 17.20 W306]
+* import of "Xlib" is never used
+IMPORT SYSTEM, Xlib$, SelectioBP, BulletinBP, Xm:=XmP, Xt:=IntrinsicP;
+FileSBP             no errors, warnings  1, lines  236, time  0.01, new symfile
+ProtocolsP          no errors, no warnings, lines  240, time  0.01, new symfile
+SeparatorP          no errors, no warnings, lines  108, time  0.02, new symfile
+ArrowBP             no errors, no warnings, lines  118, time  0.01, new symfile
+PushBP              no errors, no warnings, lines  134, time  0.01, new symfile
+TearOffBP           no errors, no warnings, lines  101, time  0.02, new symfile
+
+* [src/X11/def/Xm/FormP.def 17.20 W306]
+* import of "Xlib" is never used
+IMPORT SYSTEM, Xlib$, Xm:=XmP, Xt:=IntrinsicP, BulletinBP;
+FormP               no errors, warnings  1, lines  160, time  0.01, new symfile
+TearOffP            no errors, no warnings, lines   81, time  0.00, new symfile
+LabelGP             no errors, no warnings, lines  326, time  0.02, new symfile
+PushBGP             no errors, no warnings, lines  246, time  0.01, new symfile
+
+* [src/X11/def/Xm/FrameP.def 17.20 W306]
+* import of "Xlib" is never used
+IMPORT SYSTEM, Xlib$, Xm:=XmP, Xt:=IntrinsicP;
+FrameP              no errors, warnings  1, lines  138, time  0.01, new symfile
+RowColumnP          no errors, no warnings, lines  628, time  0.02, new symfile
+RCUtilsP            no errors, no warnings, lines   48, time  0.01, new symfile
+TextFP              no errors, no warnings, lines  496, time  0.01, new symfile
+
+* [src/X11/def/Xm/TextP.def 18.55 W306]
+* import of "stdio" is never used
+IMPORT SYSTEM, X, Xlib, Xm:=XmP, Xt:=IntrinsicP, stdio$;
+TextP               no errors, warnings  1, lines 1163, time  0.02, new symfile
+CascadeBGP          no errors, no warnings, lines  286, time  0.02, new symfile
+CascadeBP           no errors, no warnings, lines  200, time  0.01, new symfile
+SashP               no errors, no warnings, lines  107, time  0.01, new symfile
+ToggleBGP           no errors, no warnings, lines  270, time  0.01, new symfile
+CommandP            no errors, no warnings, lines  168, time  0.01, new symfile
+ScrollBarP          no errors, no warnings, lines  195, time  0.01, new symfile
+
+* [src/X11/def/Xm/DrawingAP.def 17.17 W306]
+* import of "X" is never used
+IMPORT SYSTEM, X$, Xlib, Xm:=XmP, Xt:=IntrinsicP;
+DrawingAP           no errors, warnings  1, lines  137, time  0.06, new symfile
+ScrolledWP          no errors, no warnings, lines  187, time  0.02, new symfile
+ListP               no errors, no warnings, lines  348, time  0.02, new symfile
+ToggleBP            no errors, no warnings, lines  153, time  0.02, new symfile
+ScaleP              no errors, no warnings, lines  152, time  0.01, new symfile
+CutPasteP           no errors, no warnings, lines  166, time  0.01, new symfile
+MainWP              no errors, no warnings, lines  160, time  0.01, new symfile
+
+* [src/X11/def/Xm/DialogSP.def 17.20 W306]
+* import of "Xlib" is never used
+IMPORT SYSTEM, Xlib$, Xm:=XmP, Xt:=IntrinsicP, ShellP;
+
+* [src/X11/def/Xm/DialogSP.def 17.29 W306]
+* import of "XmP" is never used
+IMPORT SYSTEM, Xlib, Xm:=XmP$, Xt:=IntrinsicP, ShellP;
+DialogSP            no errors, warnings  2, lines  150, time  0.01, new symfile
+MenuShellP          no errors, no warnings, lines  153, time  0.02, new symfile
+XmAll               no errors, no warnings, lines 5884, time  0.01, new symfile
+MenuUtilP           no errors, no warnings, lines  133, time  0.01, new symfile
+MessageBP           no errors, no warnings, lines  186, time  0.01, new symfile
+
+* [src/X11/def/Xm/XmAllP.def 42.77 W306]
+* import of "stdio" is never used
+... SYSTEM, X, Xlib, Xt:=IntrinsicP, Xutil, Xrm:=Xresource, ShellP, stdio$;
+XmAllP              no errors, warnings  1, lines 15497, time  0.15, new symfile
+-------------------------------------------------------------------
+files: 42  errors: 0(9)  lines 35417  time: 0:00  speed 3035742 l/m
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux
+
+enduser/xds/bin/xm =p src/h2d/h2d -mode:=enduser -decor=rt -woff+ -usestaticclibs:+
+
+Make project "src/h2d/h2d"
+#file "src/h2d/h2d.prj" (line 82): undeclared option "GENHISTORY"
+LongStrs            no errors, no warnings, lines  375, time  0.00, new symfile
+adt                 no errors, no warnings, lines 1183, time  0.01, new symfile
+H2DFile             no errors, no warnings, lines  775, time  0.00, new symfile
+H2DMsg              no errors, no warnings, lines  476, time  0.01, new symfile
+H2DObjs             no errors, no warnings, lines 1776, time  0.01, new symfile
+H2DCfg              no errors, no warnings, lines  426, time  0.00, new symfile
+H2DScan             no errors, no warnings, lines 1752, time  0.01, new symfile
+H2DParse            no errors, no warnings, lines 4592, time  0.02, new symfile
+H2DGen              no errors, no warnings, lines 5155, time  0.02, new symfile
+h2d                 no errors, no warnings, lines  297, time  0.01, new symfile
+New "enduser/tmp/h2d.mkf" is generated using template "enduser/xds/bin/xm.tem"
+-------------------------------------------------------------------
+files: 10  errors: 0(0)  lines 16807  time: 0:00  speed 10000 l/m
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/H2DCfg.o enduser/tmp/H2DCfg.c
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/H2DFile.o enduser/tmp/H2DFile.c
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/H2DGen.o enduser/tmp/H2DGen.c
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/H2DMsg.o enduser/tmp/H2DMsg.c
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/H2DObjs.o enduser/tmp/H2DObjs.c
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/H2DParse.o enduser/tmp/H2DParse.c
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/H2DScan.o enduser/tmp/H2DScan.c
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/LongStrs.o enduser/tmp/LongStrs.c
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/adt.o enduser/tmp/adt.c
+gcc -D_unix -D_linux -DX2C_no_spawn -DX2C_strcmp -m32 -O2 -c -g -fno-strength-reduce -Ienduser/xds/include/C -funsigned-char -fpack-struct=4  -o enduser/tmp/h2d.o enduser/tmp/h2d.c
+gcc -m32 -static -o enduser/xds/bin/h2d enduser/tmp/H2DCfg.o enduser/tmp/H2DFile.o enduser/tmp/H2DGen.o enduser/tmp/H2DMsg.o enduser/tmp/H2DObjs.o enduser/tmp/H2DParse.o enduser/tmp/H2DScan.o enduser/tmp/LongStrs.o enduser/tmp/adt.o enduser/tmp/h2d.o enduser/xds/lib/C/libts.a enduser/xds/lib/C/libxds.a  -lm -lncurses
+
+------
+DONE
+------
+
+/home/maksim/work/xds-2.60/build/x86Linux/enduser /home/maksim/work/xds-2.60/build/x86Linux
+
+PWD=/home/maksim/work/xds-2.60/build/x86Linux/enduser
+
+tar -hcf - --exclude xds/readme/bench.txt --exclude xds/licenses/xdsx86.txt --exclude xds/licenses/xdsc.txt xds | gzip >../xds-260-linux.tgz
+
+/home/maksim/work/xds-2.60/build/x86Linux
+
+------
+DONE
+------
+
+
+Build results
+
+xds-x86 build ok
+xds-c build ok
+xds-setup-package build ok
